@@ -1,0 +1,28 @@
+package GradedTest;
+
+public class ClassesAndObjects {
+    public static void main(String[] args) {
+        Ball b = new Ball();
+        b.spinAndBounce();
+    }
+}
+
+class Ball {
+    public String state;
+
+
+    private void bounce() {
+        state = "bouncing";
+        System.out.println("Ball is bouncing");
+    }
+
+    public  void spin() {
+        state = "spinning";
+        System.out.println("Ball is spinning");
+    }
+
+    public void spinAndBounce() {
+        spin();
+        bounce();
+    }
+}
