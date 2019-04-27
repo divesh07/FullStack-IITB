@@ -1,7 +1,1409 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f322131-aaa7-4778-abf7-ce2fd8bb781d" name="Default Changelist" comment="" />
+    <list default="true" id="4f322131-aaa7-4778-abf7-ce2fd8bb781d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Divide and Conquer/SolutionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Divide and Conquer/SolutionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Queues/PartA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Queues/PartB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Upgrad Assignments.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Upgrad Assignments/SolutionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Upgrad Assignments/SolutionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignments/Upgrad+Assignments-soln.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Lecture+Notes+-+Arrays+and+Linked+Lists.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Lecture+Notes+-+Classes+&amp;+Objects.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Lecture+Notes+-+Inheritance+and+Polymorphism.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module1/Lecture+Notes+-+Variables+and+Data+Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module2/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module3 -Optional/Chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/BrandV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/Course+1+-+Industry+Demonstration+-+v2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/IandP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/Lecture+Notes+-+Classes+&amp;+Objects.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/ParameterizedConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/ProductV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module6/This.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2/Course 1 - Industry Demonstration - v2/BrandV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2/Course 1 - Industry Demonstration - v2/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2/Course 1 - Industry Demonstration - v2/ProductV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2/Course 1 - Industry Demonstration - v2/StorableWebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Course+1+-+Industry+Demonstration+-+v2/Course 1 - Industry Demonstration - v2/WebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/Lecture+Notes+-+Inheritance+and+Polymorphism.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/WithArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module7/WithArrayList_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/ArrayListOps1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/ArrayListOps2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/ArrayListOps3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/.idea/Course 1 - Industry Demonstration - v3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/BrandV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/ProductV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/StorableWebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Course+1+-+Industry+Demonstration+-+v3/Course 1 - Industry Demonstration - v3/WebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/LargeList1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/LargeListGet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/Lecture+Notes+-+Arrays+and+Linked+Lists.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/LinkedListOps1 (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/LinkedListOps1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/LinkedListOps2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/ListPolymorphism1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/WithArrayListGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/WithArrayListTypeSafety.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/WithListIterator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/WithListIterator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module8/WithListIterator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum-org.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/._discussion-forum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._.git" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/._src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/.settings/._org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/._com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/._discusion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/._discussion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/._forum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/._main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/._units" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/._util" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/main/._DiscussionForum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/units/._Upvote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/units/._User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/units/._UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/com/forum/util/._Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discusion/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discusion/._forum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discusion/forum/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discusion/forum/._activiy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/._forum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/._units" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/._service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._ReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._ReplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._UpvoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._UpvoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/__MACOSX/discussion-forum/src/discussion/forum/units/service/._UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Duplicates1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Duplicates2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/FileFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Lecture+Notes+-+Algorithm+Analysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Sequence2 (1).java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Sequence2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Algorithm Analysis/Sequence3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/Lecture+Notes+-+Divide+&amp;+Conquer+Algorithms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Divide and Conquer/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/Lecture+Notes+-+Dynamic+Programming.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/MaxPathways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/MinCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/MinimumCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/SherlockHolmes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 2/Dynamic Prog/SpellChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Binary Search Tree/Lecture+Notes+-+Binary+Trees+&amp;+BSTs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Binary Trees/Binary+Trees+&amp;+BSTs.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Graphs/Lecture+Notes+-+Graphs+&amp;+Graph+Algorithms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/PhoneBook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/out/production/PhoneBook/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashMap/PhoneBook/PhoneBook/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/HashTable/Lecture+Notes+-+Hashtables.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Heaps/Lecture+Notes+-+Priority+Queues+&amp;+Heaps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Lecture+Notes+-+Stacks+and+Queues.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/BookingAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/BookingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/BookingRequestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/BookingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/Queues/Queues/src/com/upgrad/dsa/queues/bookingsystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 3/Queue/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 1 -OOPS/Lecture+Notes+-+Arrays+and+Linked+Lists.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 1 -OOPS/Lecture+Notes+-+Classes+&amp;+Objects.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 1 -OOPS/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 1 -OOPS/Lecture+Notes+-+Inheritance+and+Polymorphism.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 1 -OOPS/Lecture+Notes+-+Variables+and+Data+Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 2 - Algorithms DynamicProg/Lecture+Notes+-+Algorithm+Analysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 2 - Algorithms DynamicProg/Lecture+Notes+-+Divide+&amp;+Conquer+Algorithms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 2 - Algorithms DynamicProg/Lecture+Notes+-+Dynamic+Programming.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 3 - Data Structures/Lecture+Notes+-+Binary+Trees+&amp;+BSTs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 3 - Data Structures/Lecture+Notes+-+Graphs+&amp;+Graph+Algorithms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 3 - Data Structures/Lecture+Notes+-+Hashtables.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 3 - Data Structures/Lecture+Notes+-+Priority+Queues+&amp;+Heaps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 3 - Data Structures/Lecture+Notes+-+Stacks+and+Queues.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/DivideNConquerAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/out/production/DivideNConquerAssignment/SolutionA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/out/production/DivideNConquerAssignment/SolutionB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/src/SolutionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/DivideNConquerAssignment/src/SolutionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/StacksVersion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/StacksVersion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/StacksVersion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/StacksVersion/StacksVersion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.gradle/vcsWorkingDirs/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build/classes/java/main/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build/classes/java/main/PersonService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build/classes/java/main/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build/libs/gradle-webservice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/src/main/java/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/src/main/java/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Module9/discussion-forum/gradle-webservice/src/main/java/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/CompleteBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Entry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Heap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/ListPQ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/ListPQ1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/ListPQ2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/MyPriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Sort$1DefaultComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Sort$1TicketComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Sort$Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/out/production/untitled/com/company/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/CompleteBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/ListPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/ListPQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/ListPQ2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/MyPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/src/com/company/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Parenthesis1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Parenthesis2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Parenthesis3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Parenthesis4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/ParenthesisStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/Stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/Version.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/VersioningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/file/BaseFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/file/StringFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/file/VersionedFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/Stacks/src/com/upgrad/dsa/stacks/versioningsystem/file/VersionedStringFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Stacks/verson/verson.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/Admission Offer.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/Code+of+Conduct.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/Community+Guidelines_PGP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/Student+Manual+PGDSD.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../misc/Upgrad Assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/AbstractHelp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/AreaProcedural.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Circle1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/ComputeArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/ComputePercentage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Debug.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/Ball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/ClassesAndObjects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/Robot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/Source$Line.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/subtest/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/GradedTest/subtest/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/InformationManagementSystem/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/InformationManagementSystem/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/MovieTicket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Square1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/Student1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/com/upgrad/ecommerce/domain/v1/BrandV1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/com/upgrad/ecommerce/domain/v1/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/com/upgrad/ecommerce/domain/v1/ProductV1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Module6/test/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ArrayMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ArraySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Boolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Break.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/BreakTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Chemistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Choices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/list/CollectionConcept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/list/Product$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/list/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/list/Shipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/list/ShipmentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/set/ProductCatalog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/set/ProductFixtures.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Collections/set/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/CompareNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ConditionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Continue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Divisibility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/DoWhile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Errors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/EvenOdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ExceptionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Exceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Exceptions1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/FIleWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/FactorialModified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/FirstProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ForLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/FunctionReturn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/FunctionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Grades.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Grades1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/HelloAdvanced.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/HelloFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/JavaTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LearningLoops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Lecture Notes_Introduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Lecture+Notes+-+Variables+and+Data+Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Lecture+Notes_Conditional+Statements.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LinkedList/LinkedListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LngestPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LoopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/LoopsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/MathLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Acess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Assignment1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Assignment2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Assignment3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Assignment4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Assignment5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/BMI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Break.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/CheckSubString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Continue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/CountIterations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Day.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/DayOfWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Diagnose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Divisible.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/DoWhile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/FinMinArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/ForLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/GetChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Greater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/HCF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/HighestPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/IfElse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/IncomeTax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/InfinteLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/IsWeekend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Loops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Max2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/MaxElementArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Min2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/MinIn2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/MoreTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Multiple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Prime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/PrintStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Rectify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Assign3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Assignment1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Assignment2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Exceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/HelloFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Prime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/ReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/ReadNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/RoundOff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/SquaresOfSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/StringUpperCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Session3/SwapNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/SwitchCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/Traingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module2/TwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Module3/Chemistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/NestedLoopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/PredictPopulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/PrimeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/PrimeNumberModified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/PrintNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/PrintPrimeNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Race.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ReadNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Recurse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ResearchStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/ReturnFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session 2/Lecture+Notes+-+Loops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/CompareFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/Numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/PrimeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/ScanText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/StringLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/WriteFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/WritePrime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/aliceinwonderland.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Session3/quiz_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Split.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/StringAddition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/StringChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/SwapNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/SwtichTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/TicketPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/TryCatchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/TryNCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/TwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/TwoDArrayMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/Uppercase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/com/company/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/com/company/Boolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/com/company/Cast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/com/company/PlaceValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/com/company/Swap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/Upgrad Assignments/src/com/company/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Aadhar Back.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Aadhar Front new.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Aadhar Front.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/HSBC_Cancelled_Cheque.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/IDBI Cancelled Cheque.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Pan card.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Referral Refund Form.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scanned Docs/Referral Refund Form.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/Ancestor/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/CommonAncestor/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/CountLeaf/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/Graded/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/PrintLevel/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/PrintLevelSoln/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/PrintRootLeaf/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/Search/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/BinarySearchTree/Sibling/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/BackTracking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/JumpingJack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/KnapSack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/LongestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/MinCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/BackTracking/WaystoPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/FibSeries/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/MultiDArray/PrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/MultiDArray/Three3DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/MultiDArray/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/DynamicProgramming/MultiDArray/twoD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/DuplicateKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/FindItenary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/FirsUniqueChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/ContiguousInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/ContiguousInteger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/Ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/PairSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/HashSet/TreeSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/LinkedHashMap/FirstUniqueChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/LocksAndKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/LocksAndKeys2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/LocksandKeys3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/SymmetricPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/examples/PodState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/examples/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/examples/ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/getKeyIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/graded/DistinctValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/graded/Graded1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/HashMap/graded/Graded2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Heaps/heaps/CheckArrForHeaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Heaps/heaps/HeapSortDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Heaps/heaps/MaxToMinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Heaps/heaps/MinRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Heaps/sumHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Assignments/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Assignments/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/FindDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/GradedQuestions/CheckOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Exponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/algorithms/Recurssion/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module1/sorting/JavaObjectSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/BinarySearch/Attempts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/BinarySearch/AttemptsLinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/BinarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/LinearSearch/SearchElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/BubbleSortSwapCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/InsertionSortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/MergeSortDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/MergeSortLecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/QuickSortDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/QuickSortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Sorting/TwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/example/MergeDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/example/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Module2/example/QuickSrort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Priority Queue/Example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Priority Queue/RemovePoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Priority Queue/SmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Assignment/BrowsingHistory/BrowsingHistory.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Assignment/BrowsingHistory/SolutionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Assignment/BrowsingHistory/SolutionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/DeleteElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/EventNotifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/PrintElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/PrintLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/RateMovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Examples/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/Graded/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Queue/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/DesiredOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/ImplementStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/MatchingParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/MulipleBracketsMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PracticeQuestions/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PracticeQuestions/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PracticeQuestions/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PracticeQuestions/Sort2Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PracticeQuestions/Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PrintBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/PrintElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/ReadBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/StackMultipleBracketMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/StackParanthesisMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Stacks/graded/DeleteElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p10/SUbTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p11/RotatedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p5/PrintSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p6/PostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p8/PrintMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p9/StackInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/p9/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/pc3/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/pck1/FIndNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/pck2/PrintInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Course2/Trees/DFS/pck4/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MOdul7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/FirstProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/Lecture Notes_Introduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/Lecture+Notes+-+Variables+and+Data+Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/Module 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Acess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Assignment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Assignment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Assignment3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Assignment4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Assignment5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/BMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/CheckSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/CountIterations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Diagnose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Divisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/FinMinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/GetChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Greater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/HCF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/HighestPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/IncomeTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/InfinteLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/IsWeekend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Max2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/MaxElementArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Min2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/MinIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/MoreTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Multiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/PrintStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Rectify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Assign3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Assignment1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Assignment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/HelloFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/ReadNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/RoundOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/SquaresOfSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/StringUpperCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Session3/SwapNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/Traingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module2/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/Module3/Chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/Boolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/Cast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/PlaceValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module 1/src/com/company/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/designpattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/designpattern/StringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/diamondproblem/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/diamondproblem/source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/doublylinkedlist/DLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/hashset/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/hashset/HashSetToArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/hashset/HashSetToListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/hashset/SetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module10/hashset/source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/CompareNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Errors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Grades1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Lecture+Notes_Conditional+Statements.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/ArrayMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/ArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Break.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Continue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Divisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/FactorialModified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/ForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/JavaTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/LearningLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Lecture+Notes+-+Loops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/PrimeNumberModified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/PrintNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/PrintPrimeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/StringChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/TwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/TwoDArrayMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session 2/Uppercase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/CompareFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Exceptions1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/FunctionReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/HelloAdvanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/HelloFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/MathLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/ReadNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/ReturnFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/ScanText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/StringLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/TryNCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/WritePrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/aliceinwonderland.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/Session3/quiz_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module2/TicketPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Boolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/BreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Chemistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/list/CollectionConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/list/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/list/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/list/ShipmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/set/ProductCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/set/ProductFixtures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Collections/set/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/ConditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/FIleWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/FunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/LinkedList/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/LngestPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/LoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/LoopsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/NestedLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/PredictPopulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Recurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/StringAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/SwtichTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/TryCatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Module6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/AbstractHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/AreaProcedural.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/ComputeArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/ComputePercentage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/ClassesAndObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/GradedTest/subtest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/InformationManagementSystem/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/com/upgrad/ecommerce/domain/v1/BrandV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/com/upgrad/ecommerce/domain/v1/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/com/upgrad/ecommerce/domain/v1/ProductV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module6/Session1/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Module7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/graded/GradedQuestionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/graded/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/graded/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/graded/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/AbstractHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/AbstractTest/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/AbstractTest/practice/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/ConstructorChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/Protect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Inheritance/test/Scientist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/InterfaceTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/InterfaceTest/practice/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module7/Session1/session1/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/WithArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/assignment/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/assignment/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/assignment/Source1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/List/assignment/ZeroToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListForEachExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListIteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListListIteratorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListRemoveIfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListReplaceAllExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListSortingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/ArrayListSubListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/CommonOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/Constuctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrayList/WithArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/assignment/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/assignment/StaticHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/beans/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/concurrentModification/ConcurrentModificationExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/functionalInterface/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/functionalInterface/TestConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/functionalInterface/TestSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/gradedtest/MaxElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/gradedtest/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/gson/GsonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/BrandV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/ProductV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/StorableWebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/industryDemo/WebObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/CheckNodePresence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/CreateNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/DeleteAtIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/DeleteLastnode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/InsertNodeAtEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/InsertNodeAtIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/WithArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/example/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/linkedList/gradedTest/FindNodefromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module8/performance/largeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revision/revision/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revision/revision/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Revision/revision/TestPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Upgrad Assignments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/ResearchStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/GradedQuestionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/graded/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Parallelogram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Quadrilateral.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Rhombus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/AbstractTest/practice/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/BankAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/ConstructorChain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Protect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Rectangle1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Adult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/ArtsStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Calculate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Cappuccino.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Demo$subclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Demo$superclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Godel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main4$subclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main4$superclass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Main8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Mammal$Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Mammal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Person1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Policeman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Polymorphism.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Scientist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/Tesla.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Inheritance/test/University.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Clas3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Class1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Class2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Class4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/practice/Knight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/practice/Ninja.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/practice/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/InterfaceTest/practice/SwordFighter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/PhDStuent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Professor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/ResearchStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/SuperClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Module7/session1/University.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Anagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Ancestor/Source$BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Ancestor/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Ancestor/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ArrayMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ArraySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/BackTracking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/EditDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/JumpingJack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/KnapSack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/MinCost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BackTracking/WaystoPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BinarySearch/Attempts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BinarySearch/AttemptsLinearSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BinarySearch/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Boolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Break.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/BreakTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Chemistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Choices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/list/CollectionConcept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/list/Product$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/list/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/list/Shipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/list/ShipmentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/set/ProductCatalog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/set/ProductFixtures.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Collections/set/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CommonAncestor/Source$BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CommonAncestor/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CommonAncestor/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CompareNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ConditionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Continue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CountLeaf/Source$BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CountLeaf/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/CountLeaf/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/Traversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p10/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p10/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p10/SUbTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p11/BinaryTree$Values.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p11/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p11/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p11/RotatedTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p5/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p5/PrintSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p5/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p6/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p6/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p6/PostOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p8/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p8/PrintMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p8/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p9/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p9/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p9/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p9/StackInorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/p9/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pc3/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pc3/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pc3/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck1/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck1/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck1/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck2/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck2/PrintInorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck2/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck4/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck4/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DFS/pck4/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DesiredOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Divisibility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DoWhile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/DuplicateKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Errors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/EvenOdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Example1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/DeleteElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/EventNotifications.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/MaxValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/Output.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/PodState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/PrintElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/PrintLast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/RateMovies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/ex2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Examples/ex3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ExceptionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Exceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Exceptions1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FIleWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FactorialModified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FibSeries/Fibonacci.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FindItenary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FirsUniqueChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FirstProgram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ForLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FunctionReturn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/FunctionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Grades.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Grades1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/ContiguousInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/ContiguousInteger2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/Ex1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/Ex2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/Ex3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/HashSetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/HashSetToArrayExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/HashSetToListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/PairSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/SetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/TreeSetEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HashSet/source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HelloAdvanced.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HelloFriend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ImplementStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/JavaTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LearningLoops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Lecture Notes_Introduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Lecture+Notes+-+Variables+and+Data+Types.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Lecture+Notes_Conditional+Statements.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LinearSearch/SearchElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LinkedHashMap/FirstUniqueChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LinkedListQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/WithArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/assignment/ReverseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/assignment/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/assignment/Source1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/List/assignment/ZeroToEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LngestPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LocksAndKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LocksAndKeys2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LocksandKeys3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LoopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/LoopsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MatchingParenthesis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MathLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Acess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Assignment1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Assignment2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Assignment3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Assignment4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Assignment5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/BMI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Break.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/CheckSubString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Continue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/CountIterations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Day.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/DayOfWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Diagnose.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Divisible.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/DoWhile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Factorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/FinMinArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/ForLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/GetChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Greater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/HCF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/HighestPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/IfElse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/IncomeTax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/InfinteLoop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/IsWeekend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Loops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Max2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/MaxElementArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Min2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/MinIn2DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/MoreTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Multiple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Prime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/PrintStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Rectify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Assign3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Assignment1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Assignment2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Exceptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/HelloFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/LCM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Prime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/ReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/ReadNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/RoundOff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/SquaresOfSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/StringUpperCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Session3/SwapNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/SwitchCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/Traingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module2/TwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Module3/Chemistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MulipleBracketsMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MultiDArray/PrintMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MultiDArray/Three3DArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MultiDArray/TwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/MultiDArray/twoD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/NestedLoopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Password.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PracticeQuestions/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PracticeQuestions/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PracticeQuestions/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PracticeQuestions/Sort2Stacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PracticeQuestions/Substring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PredictPopulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrimeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrimeNumberModified.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintBottom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintLevel/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintLevel/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintLevelSoln/Source$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintLevelSoln/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintLevelSoln/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintPrimeNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintRootLeaf/Source$BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintRootLeaf/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/PrintRootLeaf/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Program.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Race.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ReadBooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ReadNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Recurse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/RemovePoll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ReturnFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/ReverseString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Search/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Search/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Search/Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session 2/Lecture+Notes+-+Loops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/CompareFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/Lecture+Notes+-+Functions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/Numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/PrimeNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/ScanText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/StringLibrary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/WriteFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/WritePrime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/aliceinwonderland.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Session3/quiz_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sibling/Source$BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sibling/Source$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sibling/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/SmallestElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/BubbleSortSwapCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/Employee$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/Employee$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/InsertionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/InsertionSortString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/JavaObjectSorting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/MergeSortDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/MergeSortLecture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/QuickSortDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/QuickSortString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/SelectionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Sorting/TwoSortedArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Split.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/StackMultipleBracketMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/StackParanthesisMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Stacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/StringAddition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/StringChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/SwapNum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/SwtichTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/SymmetricPairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/TicketPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/TryCatchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/TryNCatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/TwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/TwoDArrayMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/Uppercase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Assignments/Palindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Assignments/SumOfDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/FibonacciSeries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/FindDuplicates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/GradedQuestions/CheckOutput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Example1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Exponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Pattern.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/algorithms/Recurssion/Sum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListForEachExample$MyConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListForEachExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListIteratorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListListIteratorExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListRemoveIfExample$MyPredicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListRemoveIfExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListReplaceAllExample$MyUnaryOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListReplaceAllExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListSortingExample$MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListSortingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/ArrayListSubListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/CommonOps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Constuctor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Helper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrayList/WithArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrays/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrays/Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/arrays/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/BrowsingHistory/BrowsingHistory.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/BrowsingHistory/SiteStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/BrowsingHistory/SolutionA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/BrowsingHistory/SolutionB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/Institute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/StaticHelper$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/StaticHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/assignment/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/beans/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/beans/BookPageComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/beans/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/com/company/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/com/company/Boolean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/com/company/Cast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/com/company/PlaceValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/com/company/Swap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/concurrentModification/ConcurrentModificationExceptionExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/designpattern/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/designpattern/StringReverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/designpattern/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/IProfessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/IWarden.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/Inheritance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/Professor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/ProfessorWarden.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/Warden.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/diamondproblem/source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/doublylinkedlist/DLL$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/doublylinkedlist/DLL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/ArrayListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/LinkedListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/MergeDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/QuickSrort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/example/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/functionalInterface/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/functionalInterface/TestConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/functionalInterface/TestSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/getKeyIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/DeleteElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/DistinctValues.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/Graded1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/Graded2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/graded/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gradedtest/MaxElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gradedtest/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gson/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gson/GsonExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gson/Newmain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/gson/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/CheckArrForHeaps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/HeapSortDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/MaxToMinHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/MinRange$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/MinRange$HeapIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/heaps/MinRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/BrandV3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/ProductV3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/StorableWebObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/industryDemo/WebObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/CheckNodePresence$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/CheckNodePresence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/CreateNode$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/CreateNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/DeleteAtIndex$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/DeleteAtIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/DeleteLastnode$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/DeleteLastnode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/InsertNodeAtEnd$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/InsertNodeAtEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/InsertNodeAtIndex$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/InsertNodeAtIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/LinkedListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/LinkedListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/WithArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/example/Source.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/example/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/gradedTest/FindNodefromEnd$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/linkedList/gradedTest/FindNodefromEnd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/performance/largeList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/revision/QueueTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/revision/Recursion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/revision/Sorting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/revision/StackTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/revision/TestPractice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/src/com/company/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Upgrad Assignments/sumHeap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vim/Git-2.21.0-64-bit.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vim/gvim81.exe" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +1418,7 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -30,7 +1432,7 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,8 +1464,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Course2/Priority Queue/Example/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state relative-caret-position="148">
+              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +1488,9 @@
       <find>sort</find>
       <find>compare</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,19 +1549,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
     <option name="height" value="999" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,10 +1623,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555876854167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556267162209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -249,7 +1655,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListTest">
+  <component name="RunManager" selected="Application.ArrayListTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example.ArrayListTest" />
       <module name="Upgrad Assignments" />
@@ -324,8 +1730,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.ArrayListTest" />
+        <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.QuickSortString" />
         <item itemvalue="Application.QueueTest" />
@@ -346,9 +1752,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68189234" visible="true" weight="0.23557048" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.68189234" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.31862745" side_tool="true" weight="0.1430096" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +1764,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35135135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35034013" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.3963964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,9 +2173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,8 +2219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Course2/Priority Queue/Example/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="148">
+          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
