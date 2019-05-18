@@ -1,0 +1,39 @@
+public class TV{
+	void play("Playing TV");
+}
+
+class CD {
+	void play("Playing CD");
+}
+
+public interface CDPlayer{
+	void play();
+}
+
+class TVAdapter implement CDPlayer{
+	TV tv;
+	TVAdapter(Tv tv){
+		this.tv = tv;
+	}
+	void play(){
+		tv.play():
+	}
+
+}
+
+class CDApater implement CDPlayer{
+	CD cd;
+	CDAdapter(CDPlayer cd){
+		this.cd = cd;
+	}
+	void play(){
+		cd.play();
+	}	
+}
+
+public static void main(){
+	CDPlayer[] list  ={ new TVAdpater(new TV), new CDAdapter(new CD)}
+	for ( CDplayer cdplayer : list){
+		cdplayer.play();
+	}
+}

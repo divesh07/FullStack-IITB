@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f322131-aaa7-4778-abf7-ce2fd8bb781d" name="Default Changelist" comment="" />
+    <list default="true" id="4f322131-aaa7-4778-abf7-ce2fd8bb781d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Maven project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/Maven project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/java/springboot/FirstApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/java/springboot/FirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/java/springboot/mvcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/resources/templates/techblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/main/webapp/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maven project/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/TechnicalBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/technicalblog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +41,24 @@
     <session id="-983339197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Course2/Priority Queue/Example/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +114,9 @@
       <find>sort</find>
       <find>compare</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,10 +176,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="999" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -197,11 +228,6 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Module9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Module10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,7 +249,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555876854167" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code examples/Priority Queue &amp; Heaps/PriorityQueues&amp;Heaps/PriorityQueues&amp;Heaps" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code examples/Course 4/Tech Blog/TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116/TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -346,9 +372,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68189234" visible="true" weight="0.23557048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68189234" visible="true" weight="0.24147122" />
       <window_info id="Structure" order="1" sideWeight="0.31862745" side_tool="true" weight="0.1430096" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -766,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Course2/Priority Queue/Example/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
