@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0c65c52-ca18-4387-bcb7-b3df9ebcb83a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AdaperDesignPattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Course 4 Projects/TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maven project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/FirstApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/FirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/mvcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/techblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springboot/FirstApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springboot/FirstServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springboot/mvcController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/techblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_solution_5/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_1/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_2/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_3/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_4/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_5/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/Maven Servlets JSP/project/helloworld+-+servlet.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/TechnicalBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/java/techBlog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/UnderConstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/feature/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/target/classes/techBlog/TechnicalBlogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/target/classes/techBlog/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/target/classes/techBlog/model/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/target/classes/techBlog/service/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/Course 4/technicalblog/technicalblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 4/Lecture+Notes+-+Unit+Testing,TDD+&amp;+Refactoring+.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code examples/LectureNotes/Course 4/Lecture+Notes-+Version+Control.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scores/Course1-2-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../code examples/Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="148400989">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="html" value="73" />
+          <entry key="java" value="1563" />
+          <entry key="jsp" value="171" />
+          <entry key="xml" value="346" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="73" />
+          <entry key="JAVA" value="1563" />
+          <entry key="JSP" value="171" />
+          <entry key="XML" value="346" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="html" value="2" />
+          <entry key="java" value="7" />
+          <entry key="jsp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="7" />
+          <entry key="JSP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/springboot/FirstServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/helloworld.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/springboot/FirstApp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/springboot/mvcController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/techblog.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1938" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="sampleproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Maven project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Maven project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Maven project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Maven project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sampleproject" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Maven project" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558166831756" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code examples/Course 4/Image Hoster/ImageHoster_stub_2/ImageHoster" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FirstApp">
+    <configuration name="FirstApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springboot.FirstApp" />
+      <module name="Maven project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
+      <module name="Maven project" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.SpeedTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="SpeedTest(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.SpeedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maven project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="SpeedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="JUnit.test.SpeedTest" />
+      <item itemvalue="JUnit.test.SpeedTest (1)" />
+      <item itemvalue="Application.FirstApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstApp" />
+        <item itemvalue="JUnit.test.SpeedTest (1)" />
+        <item itemvalue="JUnit.test.SpeedTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0c65c52-ca18-4387-bcb7-b3df9ebcb83a" name="Default Changelist" comment="" />
+      <created>1557001012813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557001012813</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_SpeedTest - 2019.05.05 at 13h 41m 29s.xml">
+      <configuration name="test.SpeedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_SpeedTest_(1) - 2019.05.05 at 14h 01m 07s.xml">
+      <configuration name="test.SpeedTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_SpeedTest_(1) - 2019.05.05 at 14h 01m 34s.xml">
+      <configuration name="test.SpeedTest (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1550" height="812" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21879195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5090703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1731">
+          <caret line="796" column="1" selection-start-line="796" selection-start-column="1" selection-end-line="796" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/techblog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springboot/mvcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springboot/FirstApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springboot/FirstServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/helloworld.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../AdaperDesignPattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Course 4 Projects/TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/Maven project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/FirstApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/FirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/mvcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/resources/templates/techblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/webapp/helloworld.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/FirstApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/FirstServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/mvcController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/templates/techblog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/test-classes/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageHoster_stub_1/ImageHoster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Maven Servlets JSP/project/helloworld+-+servlet.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/TechnicalBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/UnderConstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/feature/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/TechnicalBlogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/model/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/service/PostService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/technicalblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LectureNotes/Course 4/Lecture+Notes+-+Unit+Testing,TDD+&amp;+Refactoring+.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../LectureNotes/Course 4/Lecture+Notes-+Version+Control.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../scores/Course1-2-3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../src/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ImageHoster$ImageHosterApplication.ic" NAME="ImageHosterApplication Coverage Results" MODIFIED="1539263315139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ImageHoster.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="183" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1075266861">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="641" />
+          <entry key="java" value="2722" />
+          <entry key="xml" value="94" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="641" />
+          <entry key="JAVA" value="2722" />
+          <entry key="XML" value="94" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="html" value="45" />
+          <entry key="java" value="82" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="45" />
+          <entry key="JAVA" value="82" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-905308645">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="185" />
+          <entry key="java" value="793" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="185" />
+          <entry key="JAVA" value="793" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-940240785">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="4" />
+          <entry key="java" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="104" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#25379#25380#0" expanded="true" />
+                <element signature="e#25427#25428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>post</find>
+      <find>hibernate</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ImageHosterApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/model/repository/service/ImageHosterApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/layout.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/model/UserProfile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/images/create.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/images/image.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/model/Tag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/repository/TagRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/service/TagService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/images.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558261598758" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ImageHoster_stub_3/ImageHoster" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6643678" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ImageHosterApplication">
+    <configuration name="ImageHosterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.ImageHosterApplication" />
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ImageHoster.ImageHosterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ImageHosterApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImageHosterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="" />
+      <created>1539235183787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539235183787</updated>
+      <workItem from="1539235189936" duration="57418000" />
+      <workItem from="1539523722891" duration="5990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63408000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25479743" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3281412" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.024549918" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.047463175" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/model/repository/service/ImageHosterApplication.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Tag.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/UserProfile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/repository/TagRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/repository/UserRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/TagService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/create.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/image.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images/edit.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users/login.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users/registration.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/images.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageHoster.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#25379#25380#0" expanded="true" />
+            <element signature="e#25427#25428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ImageHoster</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6643678" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

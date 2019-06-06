@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.com">
+
+    <head th:fragment="site-head">
+        <title>Sping MVC Application</title>
+    </head>
+    <body>
+        <header th:fragment="logged-out" th:remove="tag">
+            <header>
+
+                <a href="users/login.html" th:href="@{/users/login}">Login</a>
+
+                <a href="users/registration.html" th:href="@{/users/registration}">Registration</a>
+
+            </header>
+        </header>
+
+        <header th:fragment="logged-in" th:remove="tag">
+            <header>
+                <a href="posts/create.html" th:href = "@{/posts/newpost}">Create Post</a>
+                <form method="post" th:action=" @{/users/logout}">
+                    <input type = "submit" value="Logout"/>
+                </form>
+            </header>
+        </header>
+
+    </body>
+</html>

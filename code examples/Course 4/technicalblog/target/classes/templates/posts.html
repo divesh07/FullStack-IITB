@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.com">
+
+    <head th:replace="layout :: site-head"></head>
+
+    <header th:replace="layout :: logged-in">
+        <title>
+            Spring MVC Application - User posts
+        </title>
+    </header>
+
+
+    <body>
+        <h1>Weclome user . These are your posts</h1>
+        <main>
+            <post th:each="p : ${posts}">
+                <h2 th:text="${p.title}"></h2>
+                <i>Posted on : </i> <span th.text="${p.date}"></span>
+                <div>
+                    <p th.text="${p.body}"></p>
+                </div>
+            </post>
+        </main>
+    </body>
+</html>
