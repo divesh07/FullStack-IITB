@@ -32,4 +32,12 @@ public class UserService {
         }
     }
 
+    public boolean validatePassword(User user){
+        String pwd = user.getPassword();
+        if ( pwd!= null && !pwd.isEmpty() && !pwd.equals("")  && pwd.matches(".*[a-zA-Z]+.*")  && pwd.matches(".*[0-9]+.*") && !pwd.matches("[a-zA-Z0-9]+")) {
+            return true;
+        }
+        return false;
+    }
+
 }
