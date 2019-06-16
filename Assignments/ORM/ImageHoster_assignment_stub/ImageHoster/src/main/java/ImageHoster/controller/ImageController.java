@@ -50,15 +50,16 @@ public class ImageController {
         Image image = imageService.getImageByTitle(title);
         model.addAttribute("image", image);
         model.addAttribute("tags", image.getTags());
+        model.addAttribute("comments", image.getComments());
         return "images/image";
     }
 
     @RequestMapping("/images/{imageId}/{title}")
     public String showImage(@PathVariable("title") String title, @PathVariable("imageId") Integer imageId, Model model) {
-        //Image image = imageService.getImageByTitle(title);
         Image image = imageService.getImageById(imageId);
         model.addAttribute("image", image);
         model.addAttribute("tags", image.getTags());
+        model.addAttribute("comments", image.getComments());
         return "images/image";
     }
 
@@ -111,6 +112,7 @@ public class ImageController {
             model.addAttribute("editError", error);
             model.addAttribute("image", image);
             model.addAttribute("tags", image.getTags());
+            model.addAttribute("comments", image.getComments());
             return "images/image";
         }
 
@@ -169,6 +171,7 @@ public class ImageController {
             model.addAttribute("deleteError", error);
             model.addAttribute("image", image);
             model.addAttribute("tags", image.getTags());
+            model.addAttribute("comments", image.getComments());
             return "images/image";
         }
 

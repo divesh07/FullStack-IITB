@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
-public class HomeController {
+public class ErrorController {
 
     @Autowired
     private ImageService imageService;
 
-    @RequestMapping("/")
-    public String getAllImages(Model model) {
+    //@RequestMapping("/error")
+    public String handleError(Model model) {
         List<Image> images = imageService.getAllImages();
         model.addAttribute("images", images);
         return "index";
