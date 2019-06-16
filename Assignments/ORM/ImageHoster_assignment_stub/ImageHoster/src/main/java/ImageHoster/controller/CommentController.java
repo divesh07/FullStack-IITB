@@ -53,7 +53,7 @@ public class CommentController {
                 return "images/image";
             }
         }
-        return "images/image";
+        return "redirect:/images/{imageId}/{imageTitle}";
     }
 
 }

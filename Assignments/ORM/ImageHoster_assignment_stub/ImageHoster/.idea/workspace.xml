@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ab5c82-14c4-415c-8ee2-2b3c83e7f338" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/CommentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ImageHoster/controller/CommentControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Maven project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Maven project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../code examples/Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../code examples/Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../code examples/Course 4/Image Hoster/ImageHoster_solution_5/ImageHoster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../code examples/Course 4/Image Hoster/ImageHoster_solution_5/ImageHoster/.idea/workspace.xml" afterDir="false" />
@@ -60,7 +54,7 @@
         <counts>
           <entry key="class" value="25" />
           <entry key="html" value="39" />
-          <entry key="java" value="96" />
+          <entry key="java" value="98" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -68,21 +62,21 @@
         <counts>
           <entry key="CLASS" value="25" />
           <entry key="HTML" value="39" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="98" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="11" />
-          <entry key="java" value="2832" />
+          <entry key="java" value="2851" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="11" />
-          <entry key="JAVA" value="2832" />
+          <entry key="JAVA" value="2851" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -90,11 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+            <state relative-caret-position="350">
+              <caret line="290" column="50" lean-forward="true" selection-start-line="290" selection-start-column="50" selection-end-line="290" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="84" />
+            <state relative-caret-position="470">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,11 +120,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="228">
               <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="e#487#488#0" expanded="true" />
@@ -151,6 +160,19 @@
                 <element signature="e#1193#1194#0" expanded="true" />
                 <element signature="e#1347#1348#0" expanded="true" />
                 <element signature="e#1403#1404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1879">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+              <folding>
+                <element signature="e#3074#3075#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,8 +231,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" />
       </list>
     </option>
   </component>
@@ -389,7 +411,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560707979743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560708307259" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -411,7 +433,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ImageControllerTest.showImage">
+  <component name="RunManager" selected="JUnit.CommentControllerTest.createComment">
     <configuration name="CommentControllerTest.createComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -497,10 +519,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImageControllerTest.showImage" />
         <item itemvalue="JUnit.CommentControllerTest.createComment" />
-        <item itemvalue="JUnit.HomeControllerTest.getAllImages" />
         <item itemvalue="JUnit.ImageControllerTest" />
+        <item itemvalue="JUnit.ImageControllerTest.showImage" />
+        <item itemvalue="JUnit.HomeControllerTest.getAllImages" />
         <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
@@ -519,15 +541,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 12m 23s.xml">
-      <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 12m 37s.xml">
-      <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 15m 37s.xml">
-      <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 16m 29s.xml">
       <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
     </history-entry>
@@ -549,12 +562,21 @@
     <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 29m 01s.xml">
       <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ImageControllerTest_showImage - 2019.06.16 at 23h 29m 52s.xml">
+      <configuration name="ImageControllerTest.showImage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImageControllerTest - 2019.06.16 at 23h 32m 10s.xml">
+      <configuration name="ImageControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommentControllerTest_createComment - 2019.06.16 at 23h 34m 33s.xml">
+      <configuration name="CommentControllerTest.createComment" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,7 +585,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.19501133" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33956388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33956388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -829,19 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -959,17 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding>
-            <element signature="e#3074#3075#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -988,25 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,30 +1024,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        <state relative-caret-position="350">
+          <caret line="290" column="50" lean-forward="true" selection-start-line="290" selection-start-column="50" selection-end-line="290" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1879">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="e#3074#3075#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="84" />
+        <state relative-caret-position="470">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="44" column="40" lean-forward="true" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
         </state>
       </provider>
     </entry>
