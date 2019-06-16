@@ -1,7 +1,7 @@
-/*
 
 package ImageHoster.controller;
 
+import ImageHoster.controller.HomeController;
 import ImageHoster.service.ImageService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -38,4 +38,4 @@ public class HomeControllerTest {
     }
 }
 
-*/
+

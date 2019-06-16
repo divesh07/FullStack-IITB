@@ -1,4 +1,3 @@
-/*
 package ImageHoster.controller;
 
 import ImageHoster.model.Image;
@@ -68,7 +67,7 @@ public class ImageControllerTest {
     public void showImage() throws Exception {
         User user = new User();
         UserProfile userProfile = new UserProfile();
-        userProfile.setId(1);
+        userProfile.setId(51);
         userProfile.setEmailAddress("a@gmail.com");
         userProfile.setFullName("Abhi Mahajan");
         userProfile.setMobileNumber("9876543210");
@@ -81,14 +80,14 @@ public class ImageControllerTest {
         session.setAttribute("loggeduser", user);
 
         Image image = new Image();
-        image.setId(1);
+        image.setId(51);
         image.setTitle("new");
         image.setDescription("This image is for testing purpose");
         image.setUser(user);
 
         Mockito.when(imageService.getImage(Mockito.anyInt())).thenReturn(image);
 
-        this.mockMvc.perform(get("/images/1/new").session(session))
+        this.mockMvc.perform(get("/images/51/new").session(session))
                 .andExpect(view().name("images/image"))
                 .andExpect(content().string(containsString("Welcome User. This is the image")));
 
@@ -310,4 +309,3 @@ public class ImageControllerTest {
     }
 }
 
-*/

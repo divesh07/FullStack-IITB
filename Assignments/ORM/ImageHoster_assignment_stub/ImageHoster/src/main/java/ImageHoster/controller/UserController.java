@@ -48,7 +48,7 @@ public class UserController {
             String error = "Password must contain atleast 1 alphabet, 1 number & 1 special character";
             model.addAttribute("passwordTypeError", error);
             model.addAttribute("User", user);
-            return "users/registration";
+            return "users/login";
         }
     }
 
