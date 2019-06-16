@@ -35,21 +35,23 @@ public class CommentController {
 
         Comment comment = new Comment();
         Image image = imageService.getImageById(imageId);
-        model.addAttribute("image", image);
-        model.addAttribute("tags", image.getTags());
-        try {
-            comment.setCreatedDate(new Date());
-            comment.setUser((User) session.getAttribute("loggeduser"));
-            comment.setText(description);
-            comment.setImage(image);
-            comments.add(comment);
-            commentService.createComment(comment);
-            //model.addAttribute("comments", comments);
-            model.addAttribute("comments", image.getComments());
+        if ( null != image) {
+            model.addAttribute("image", image);
+            model.addAttribute("tags", image.getTags());
+            try {
+                comment.setCreatedDate(new Date());
+                comment.setUser((User) session.getAttribute("loggeduser"));
+                comment.setText(description);
+                comment.setImage(image);
+                comments.add(comment);
+                commentService.createComment(comment);
+                //model.addAttribute("comments", comments);
+                model.addAttribute("comments", image.getComments());
 
-        } catch (Exception e) {
-            System.out.println("Exception caught while trying to read comment");
-            return "images/image";
+            } catch (Exception e) {
+                System.out.println("Exception caught while trying to read comment");
+                return "images/image";
+            }
         }
         return "images/image";
     }
