@@ -27,7 +27,6 @@ public class PostController {
         //posts.add(latestPost);
         //model.addAttribute("posts", latestPost);
         List<Post> posts = postService.getAllPosts();
-
         model.addAttribute("posts", posts);
         //redirects to post.html
         return "posts";

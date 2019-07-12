@@ -22,6 +22,7 @@ public class PostRepository {
         TypedQuery<Post> query = em.createQuery("select p from Post p", Post.class);
 
         final List<Post> resultList = query.getResultList();
+
         //query.getSingleResult();
         return resultList;
     }
@@ -31,6 +32,7 @@ public class PostRepository {
 
         // finds record based on the primary key
         return em.find(Post.class, 3); // find the record in the post table where primary key ( id == 3 )
+
     }
 
     public Post createPost(Post newPost){
