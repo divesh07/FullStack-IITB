@@ -2,76 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../../AdaperDesignPattern.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Course 4 Projects/TechnicalBlogApplication-7f054445a973db7245f40d732655f618465cb116.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../HelloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/Maven project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/FirstApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/FirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/java/springboot/mvcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/resources/templates/techblog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/main/webapp/helloworld.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/Calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/FirstApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/FirstServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/springboot/mvcController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/classes/templates/techblog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../Maven project/target/test-classes/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ImageHoster_solution_5/ImageHoster/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ImageHoster_stub_1/ImageHoster/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ImageHoster_stub_2/ImageHoster/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ImageHoster_stub_3/ImageHoster/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ImageHoster_stub_4/ImageHoster/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Maven Servlets JSP/project/helloworld+-+servlet.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/TechnicalBlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/config/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/UnderConstruction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/feature/info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/TechnicalBlogApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/controller/HomeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/model/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/service/PostService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../technicalblog/technicalblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../LectureNotes/Course 4/Lecture+Notes+-+Unit+Testing,TDD+&amp;+Refactoring+.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../LectureNotes/Course 4/Lecture+Notes-+Version+Control.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../../scores/Course1-2-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/ImageHoster/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/ImageHoster/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/ImageHoster/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6/ImageHoster/src/main/main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/templates/posts/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Maven project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Maven project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/java/techBlog/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../technicalblog/target/classes/techBlog/controller/PostController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -257,14 +204,15 @@
     <session id="-260774257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -360,10 +308,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1551" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -371,6 +319,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,32 +344,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
@@ -460,7 +383,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +394,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558264722703" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ImageHoster_solution_5/ImageHoster" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ORM/ImageHoster_stub_6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -549,7 +471,7 @@
     <option name="totallyTimeSpent" value="70738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -557,7 +479,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -664,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,16 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#24922#24923#0" expanded="true" />
-            <element signature="e#24954#24955#0" expanded="true" />
-            <element signature="e#25004#25005#0" expanded="true" />
-            <element signature="e#25046#25047#0" expanded="true" />
-            <element signature="e#25082#25083#0" expanded="true" />
-            <element signature="e#25114#25115#0" expanded="true" />
-            <element signature="e#25164#25165#0" expanded="true" />
-            <element signature="e#25206#25207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,9 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

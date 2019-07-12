@@ -1,0 +1,30 @@
+<html xmlns:th="http://thymeleaf.org">
+
+<head th:replace="layout :: site-head">
+</head>
+
+<header th:replace="layout :: logged-in"></header>
+
+<h1>Edit Image</h1>
+
+<form th:method="put" th:action="@{/editImage(imageId=${image.id})}" enctype="multipart/form-data">
+
+    <div>Image Title :</div>
+    <div>
+        <input type="text" name="title" size="70" th:value="${image.title}"/>
+    </div>
+
+    <div> Description :</div>
+    <div>
+        <textarea rows="7" cols="100" name="description" th:text="${image.description}"></textarea>
+    </div>
+
+    <div>
+        <label for="file">Edit File</label>
+        <input type="file" name="file" id="file"/>
+    </div>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+</html>
