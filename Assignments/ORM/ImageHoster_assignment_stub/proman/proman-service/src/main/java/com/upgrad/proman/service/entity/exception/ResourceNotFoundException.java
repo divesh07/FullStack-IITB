@@ -1,4 +1,4 @@
-package com.upgrad.proman.service.entity.business;
+package com.upgrad.proman.service.entity.exception;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;

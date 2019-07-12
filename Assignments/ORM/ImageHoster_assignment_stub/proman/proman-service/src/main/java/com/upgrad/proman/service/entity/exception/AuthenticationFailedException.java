@@ -3,13 +3,13 @@ package com.upgrad.proman.service.entity.exception;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 
-public class ResourceNotFoundException extends Exception {
+public class AuthenticationFailedException extends Exception {
 
     private final String code;
 
     private final String errorMessage;
 
-    public ResourceNotFoundException(final String code, final String errorMessage) {
+    public AuthenticationFailedException(final String code, final String errorMessage) {
         this.code = code;
         this.errorMessage = errorMessage;
     }

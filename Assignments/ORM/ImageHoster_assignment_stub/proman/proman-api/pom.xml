@@ -11,5 +11,126 @@
 
     <artifactId>proman-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.upgrad.proman</groupId>
+            <artifactId>proman-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.2</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.18</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.9.2</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>io.swagger</groupId>
+                    <artifactId>swagger-codegen-maven-plugin</artifactId>
+                    <version>2.3.1</version>
+                    <configuration>
+                        <output>${project.build.directory}/generated-sources</output>
+                        <language>spring</language>
+                        <library>spring-boot</library>
+                        <verbose>true</verbose>
+                        <generateApis>false</generateApis>
+                        <generateModels>true</generateModels>
+                        <modelPackage>com.upgrad.proman.api.model</modelPackage>
+                        <apiPackage>com.upgrad.proman.api.rest</apiPackage>
+                        <configOptions>
+                            <sourceFolder>.</sourceFolder>
+                            <java8>true</java8>
+                            <dateLibrary>java8</dateLibrary>
+                            <interfaceOnly>true</interfaceOnly>
+                        </configOptions>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-codegen-maven-plugin</artifactId>
+                <dependencies>
+                    <dependency>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-codegen-generators</artifactId>
+                        <version>1.0.0-rc0</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>signup</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/resources/endpoints/signup.json</inputSpec>
+                            <language>spring</language>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>userdmin</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/resources/endpoints/useradmin.json</inputSpec>
+                            <language>spring</language>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>authentication</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/src/main/resources/endpoints/authentication.json</inputSpec>
+                            <language>spring</language>
+                        </configuration>
+                    </execution>
+                </executions>
+
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

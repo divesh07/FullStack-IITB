@@ -1,4 +1,4 @@
-package com.upgrad.proman.service.entity.com.upgrad.proman.service.common;
+package com.upgrad.proman.service.common;
 
 import java.util.HashMap;
 import java.util.Map;
