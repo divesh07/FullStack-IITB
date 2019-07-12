@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.111569">
+<testcase classname="AV2X Manager Installation" name="Install Manager with Remotedb" time="0.111569">
+<failure message="java.lang.Exception: Installer not found&#10;&#9;at AVMInstaller.cucumber.tests.common.InstallerService.CheckForInstaller(InstallerService.java:32)&#10;&#9;at ✽.Given Manager Installer(AV2XInstaller.feature:4)&#10;"><![CDATA[Given Manager Installer.....................................................failed
+And Installation Type is Remotedb...........................................skipped
+Then Start Manager installer................................................skipped
+Then Check if Manager installer dialog opened...............................skipped
+Then Click Next in Start Manager Installation dialog........................skipped
+Then Accept License agreement...............................................skipped
+Then Click Next in License dialog...........................................skipped
+Then Enter RemoteDb server name.............................................skipped
+Then Select Server Authentication Type......................................skipped
+Then Enter RemoteDb Server UserName.........................................skipped
+Then Enter RemoteDb Server Password.........................................skipped
+Then Click Next in DB selection dialog......................................skipped
+Then Change HttpsPort to 3443...............................................skipped
+Then Select Allow connections over HTTP checkbox............................skipped
+Then Click Next button in Network port dialog...............................skipped
+Then Click Next button Installation Destination selection dialog............skipped
+Then Click Install button...................................................skipped
+
+StackTrace:
+java.lang.Exception: Installer not found
+	at AVMInstaller.cucumber.tests.common.InstallerService.CheckForInstaller(InstallerService.java:32)
+	at ✽.Given Manager Installer(AV2XInstaller.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
