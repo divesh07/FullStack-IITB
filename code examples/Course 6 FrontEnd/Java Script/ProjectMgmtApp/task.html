@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Task page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="./home.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./common.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+                Project Management App
+        </header>
+        <div class="container">
+                <form>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label for="taskNameID">Task name</label>
+                                <input type="text" class="form-control" id="taskNameID" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+              
+                            <div class="form-group col">
+                                <label for="selectDropdownID">Assignee</label>
+                                <select name="" id="selectDropdownID">
+                                    <option value="">Marks</option>
+                                    <option value="">Judy</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="form-group col"> 
+                                    <label for="startDate">Start Date</label>
+                                    <input type="date" name="" class="form-control" id="startDate">
+                                </div>
+
+                                <div class="form-group col">  
+                                    <label for="endDate">End Date</label>
+                                    <input type="date" name="" class="form-control" id="endDate">
+                                </div>
+                        </div>
+
+                        <div class="form-group form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Add Task</button>
+                </form>
+
+                </div id = "taskList">
+                    <div class="row">
+                        <div class="col">
+                            Task Name
+                            <p><b>Sample Task</b></p>
+                        </div>
+                        <div class="col">
+                            Start Date
+                            <p><b>dd/mm/yyyy</b></p>
+                        </div>
+                        <div class="col">
+                            End Date
+                            <p><b>dd/mm/yyyy</b></p>
+                        </div>
+                        <div class="col">
+                            Assignee
+                            <p><b>Mark</b></p>
+                        </div>
+                        <div class="col">
+                            Completed status
+                            <p><b>Yes</b></p>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-success">Edit</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </div>
+                </div>
+        </div>
+        <script src="./task.js"></script>
+    </body>
+</html>

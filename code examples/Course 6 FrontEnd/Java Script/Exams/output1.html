@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>    
+    <p id = "idSelector"></p>
+    <p class = "classSelector"></p>
+    <p class = "classSelector"></p>
+    <p class = "classSelector"></p>
+    <p></p>
+    <script>
+        document.getElementsByTagName('idSelector').innerHTML = "This is the first paragraph";
+        document.getElementsByClassName('classSelector')[1].innerHTML = "This is the second para";
+        document.getElementsByTagName('p')[0].innerHTML = "This is the fifth paragraph";
+        document.getElementsByClassName('classSelector')[2].innerHTML = "This is the third para";
+        document.getElementsByClassName('classSelector')[3].innerHTML = "This is the fourth para";
+    </script>
+</body>
+
+</html>

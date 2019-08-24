@@ -1,0 +1,64 @@
+
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+			
+}
+
+.menu-block{
+    width:20%;
+    background-color: grey;
+    padding: 5%;
+    color: white;
+    height: 100vh;
+}
+
+.board-container{
+    width:80%;
+}
+
+.add-board-block{
+    margin: 20px;
+    padding: 20px;
+}
+
+.board-block{
+    margin: 20px;
+    padding: 20px;
+    display: none;
+}
+
+#newBoardText{
+    width: 95vh;  
+    margin: 20px;
+    padding: 1%;
+    
+}
+
+#add-board-btn{
+    background-color: green;
+    color: white;
+    width: 10vh;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
+}
+
+.project-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    background-color: grey;
+    margin: 10px 0;
+    padding: 2%;
+    border-radius: 5px;
+    color: white;
+    width: 40%;
+}

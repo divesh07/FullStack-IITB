@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Creating elements in Javascript</title>
+    </head>
+
+    <body>            
+        <div id = "mainDiv">
+        </div>
+
+        <script>
+            for(var i=1 ; i < 3 ; i++){
+                var newText = document.createElement('p');
+                // adding p tag here is optional 
+                // THe loop would run twice and the text "new paragraph " would be printed 
+                newText.innerHTML = "<p>New paragraph </p>";
+                document.getElementById('mainDiv').appendChild(newText);
+            }
+        </script>
+    </body>
+</html>
+        

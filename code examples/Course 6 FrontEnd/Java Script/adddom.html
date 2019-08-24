@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>sample</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        
+        <p id="parent">First Parent</p>
+        <p id="parent2">Second Parent</p>
+
+        <script>
+            // First parent is being replaced by innerHTML
+            document.getElementById('parent').innerHTML = '<p>Child</p>';
+
+            // If we dont want to remove the parent but append it
+            // Create a new node and use method appendChild()
+            var newNode = document.createElement('p');
+            newNode.innerHTML = "This is a child node";
+            document.getElementById('parent2').appendChild(newNode);
+        </script>
+    </body>
+    
+</html>
+        

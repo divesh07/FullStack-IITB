@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>JavaScript loops</title>
+    </head>
+
+    <body>            
+        <p class="customPara"></p>
+        <p class="customPara"></p>
+        <p class="customPara"></p>
+        <p class="customPara"></p>
+
+        <script>
+            var arr = ["one", "two" , "three", "four"];
+            /*
+            arr.forEach(myFun);
+            function myFun(value){
+                var newText = document.createElement('p');
+                newText.innerHTML = "This is the paragraph number " + value;
+                document.getElementsByClassName('customPara')[0].appendChild(newText);
+            }
+            */
+            for ( var i = 0 ; i < arr.length; i++){
+                var newText = document.createElement('p');
+                newText.innerHTML = "This is the paragraph number " + arr[i];
+                document.getElementsByClassName('customPara')[i].appendChild(newText);
+            }
+        </script>
+    </body>
+</html>
+        

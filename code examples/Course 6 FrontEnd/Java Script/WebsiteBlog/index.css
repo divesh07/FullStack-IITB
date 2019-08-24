@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;     
+}
+h1{    
+    color: blue;
+    text-align: center; 
+}
+div{  
+ width: 30%;
+ }
+button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+p{
+    background-color: grey;
+    padding: 10px;
+    color: white;
+}
+#paraText{
+    background-color: white;
+    color: black;
+}
+input{
+    padding: 10px;
+    width: 30%;
+}

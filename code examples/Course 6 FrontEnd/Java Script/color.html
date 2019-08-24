@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Creating elements in Javascript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+            
+            <p> This is a dummy text</p>
+        <script>
+            // Create attribute dynamically to a dom node
+            // access a p tag and add id to it
+            document.getElementsByTagName('p')[0].setAttribute('id', 'changeColor')
+            
+            // Chnage the style of the dom node by accessing the id
+            document.getElementById('changeColor').style.color =  'red';
+            document.getElementById('changeColor').style.fontWeight = 'bolder';
+
+        </script>
+    </body>
+    
+</html>
+        

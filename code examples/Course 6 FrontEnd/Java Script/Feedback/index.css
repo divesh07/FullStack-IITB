@@ -1,0 +1,27 @@
+body {
+    background-color: #eb9aec; 
+}
+div{
+    text-align: center;
+    margin-top: 4%;
+    
+}
+button{
+    padding: 5px;
+    margin: 5px 5px 0px 32px;
+    width: 55px;
+}
+
+#commentContainer{
+    display: none;
+}
+
+textarea{
+    margin-left: 42%;
+    display: block;
+}
+
+p{
+    margin-left: 18px;
+}
+  

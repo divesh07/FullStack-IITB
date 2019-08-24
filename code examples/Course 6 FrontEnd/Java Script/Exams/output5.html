@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listener</title>
+</head>
+
+<body>  
+    
+    <h1>My favorite book of all time</h1>
+    <div>
+        <ul>
+            <li class="bookName">The Kite Runner</li>
+            <li class="bookName">To Kill a MockingBird</li>
+            <li class="bookName">Kafka on the shore</li>
+        </ul>
+    </div>
+
+    <script>
+        document.getElementsByClassName('bookName')[1].addEventListener('mousedown', function(){
+            alert('This book was published in 196-');
+        });
+    </script>
+    
+    
+
+    
+</body>
+
+</html>

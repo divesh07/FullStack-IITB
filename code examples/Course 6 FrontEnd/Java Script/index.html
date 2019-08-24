@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Java script events</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <p id="dummy-text"></p>
+        <p class="dummy-class"></p>
+        <h1></h1>
+        <script>
+                document.getElementById('dummy-text').innerHTML = 'Hello World from ID';
+                document.getElementsByClassName('dummy-class')[0].innerHTML = 'Hello World from Class';
+                document.getElementsByTagName('h1')[0].innerHTML = 'Hello from Tag';
+        </script>
+    </body>
+    
+</html>
+        

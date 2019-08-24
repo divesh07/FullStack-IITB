@@ -1,0 +1,119 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#exampleModal').modal('show');
+        $('#exampleModalSignUp').modal('show');
+    </script>
+
+    
+</head>
+<body>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="sign-in-button">
+        Sign In
+    </button>
+
+    <div  id="exampleModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Welcome Back</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <p>
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >                  
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                        </div>
+                    </p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalSignUp" id="sign-up-button">
+            Sign Up
+    </button>
+
+    
+
+
+    <div class="modal" id="exampleModalSignUp" tabindex="-1" role="dialog"  aria-labelledby="exampleModalSignUpLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 id="exampleModalSignUpLabel" class="modal-title">Join Us</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                      <p>
+                            <div class="form-group">
+                                    <label for="exampleInputName1">Enter your Name</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Name" >                  
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Enter your Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >                  
+                                </div>
+                    
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Enter a Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                    
+                                <div class="form-group">
+                                        <label for="exampleInputPassword2">Confirm Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Re-enter Password">
+                                        </div>
+                    
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck">
+                                    <label class="form-check-label" for="exampleCheck">Remember Me</label>
+                                </div>
+                        
+                        
+                        
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Sign Up</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+</body>
+</html>

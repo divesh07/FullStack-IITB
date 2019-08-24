@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>  
+    <p class="addtext"></p>  
+    <p class="addtext"></p>  
+    <p class="addtext"></p>  
+    <p class="addtext"></p>  
+
+    <script>
+        variableText();
+        variableText1();
+
+
+        function variableText(){
+            var newText = "New text added";
+            for ( var i=0 ; i<3; i++){
+                document.getElementsByClassName('addtext')[i].innerHTML = newText;
+            }
+        }
+
+        function variableText1(){
+            
+            
+            document.getElementsByClassName('addtext')[3].innerHTML = newText;
+            
+        }
+        
+        
+    </script>
+</body>
+
+</html>

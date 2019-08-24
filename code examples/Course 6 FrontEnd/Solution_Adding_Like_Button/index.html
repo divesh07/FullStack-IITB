@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adding HTML with Javascript</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+<body>
+    <h1>The Tech Chronicle</h1>
+    <p id="paraText">As the world continues to embrace technological advancements at a pace that’s growing exponentially, the demand for software 
+        developers is on the rise. It is software developers who collaborate with data scientists and analysts to build software and 
+        applications that are transforming the entire canvas of the global society on a massive scale. Today we have an app for addressing 
+        all our needs – Uber, Airbnb, Zomato, PayPal, Amazon, and so much more. Then again, we now have smart personal assistants like Siri, 
+        Alexa, Cortana, and Google Assistant that can perform a range of impressive tasks for us, from controlling our IoT devices to doing 
+        shopping for us!  </p>
+        
+        <div class="likeBlogButton">    
+    <button  id= "likeBlog" onclick="postLiked()">Like</button> 
+    <span id="likeCount">Be the first one to like this!</span>
+  </div>
+  <input type="textarea" placeholder="Add your comments" id="userComments" value="">
+    <button id="addList" onclick="addComments(userComments)">Comment</button>
+    <div id="addEventNames"></div>
+    <script src="index.js"></script> 
+</body>
+</html>

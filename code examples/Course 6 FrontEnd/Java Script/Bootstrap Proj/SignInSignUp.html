@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <!--Add bootstrap libraries here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="sign-in-button">
+            Sign In
+    </button>
+    
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalSignUp" id="sign-up-button">
+                Sign Up
+    </button>
+
+    <form>
+        <div class="form-group">
+            <h4 >Welcome Back</h4>
+            <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >                  
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            
+        </div>
+    </form>
+
+    <button id="exampleModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Sign In
+    </button>
+
+    <button id="exampleModal" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+            Close
+    </button>
+
+    <form>
+        <div class="form-group">
+            <h4 >Join Us</h4>
+            <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="form-group">
+                <label for="exampleInputName1">Enter your Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Name" >                  
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Enter your Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >                  
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Enter a Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+            <div class="form-group">
+                    <label for="exampleInputPassword2">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Re-enter Password">
+                    </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck">
+                <label class="form-check-label" for="exampleCheck">Remember Me</label>
+            </div>
+            
+        </div>            
+    </form>
+    <button id = "exampleModalSignUp" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalSignUp">
+            Sign Up
+    </button> 
+
+    <button id="exampleModal" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+            Close
+    </button>
+
+</body>
+</html>

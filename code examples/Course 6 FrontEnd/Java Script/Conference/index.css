@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+    text-align: center;    
+}
+h1{
+  
+    color: blue;
+    position: relative;
+}
+div{
+    
+    color: black;
+    position: relative;
+}
+h2{
+    color:red;
+}

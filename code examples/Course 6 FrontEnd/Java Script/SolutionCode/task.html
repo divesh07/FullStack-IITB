@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Task Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/common.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/task.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header> 
+        Project Management App
+    </header>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-10 task-container">
+                <h4>Board name: Lorem ipsum</h4>
+                <p>Project name: Lorem ipsum</p>
+                <div class="task-card">
+                    <form id="task-form" name="TaskEditForm" onsubmit="saveTask();">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="taskName">Task name</label>
+                                <input type="text" class="form-control" id="taskName" aria-describedby="emailHelp" placeholder="Enter task name">
+                            </div>
+                            <div class="col">
+                                <label for="assignee">Assignee</label>
+                                <select class="custom-select" id="assignee">
+                                    <option selected>Selct one assignee</option>
+                                    <option value="1">Mark</option>
+                                    <option value="2">Theo</option>
+                                    <option value="3">Judy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="startDate" class="label-text">Start date</label>
+                                <input type="date" class="form-control" id="startDate" required value="28-05-2018">
+                            </div>
+                            <div class="col">
+                                <label for="endDate" class="label-text">End date</label>
+                                <input type="date" class="form-control" id="endDate" value="28-05-2018" required>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="isTaskComplete">
+                                <label class="form-check-label">
+                                    Task completed
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn create-task-btn">Add task</button>
+                    </form>
+                </div>
+                <div class="taskList">
+                    <div class="row">
+                        <div class="col">
+                            Task Name
+                            <p><b>Sample task 1</b></p>
+                        </div>
+                        <div class="col">Start Date
+                               <p><b>01/01/2018</b></p>
+                        </div>
+                        <div class="col">End Date
+                               <p><b>01/10/2018</b></p>
+                        </div>                        
+                        <div class="col">Completed status
+                               <p><b>Yes</b></p>
+                        </div>
+                        <div class="col hidden-xs">
+                            <button class="btn btn-success">Edit</button>                            
+                        </div>
+                        <div class="col hidden-xs">
+                            <button class="btn btn-danger">Delete</button>
+                        </div>                        
+                    </div>
+                 </div>
+                 <div class="taskList">
+                    <div class="row">
+                        <div class="col">
+                            Task Name
+                            <p><b>Sample task 2</b></p>
+                        </div>
+                        <div class="col">Start Date
+                               <p><b>01/01/2018</b></p>
+                        </div>
+                        <div class="col">End Date
+                               <p><b>01/01/2019</b></p>
+                        </div>                        
+                        <div class="col">Completed status
+                               <p><b>Yes</b></p>
+                        </div>
+                        <div class="col hidden-xs">
+                            <button class="btn btn-success">Edit</button>                            
+                        </div>
+                        <div class="col hidden-xs">
+                            <button class="btn btn-danger">Delete</button>
+                        </div>                        
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/task.js" defer></script>    
+</body>
+
+</html>

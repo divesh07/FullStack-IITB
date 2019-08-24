@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+
+<body>    
+    <div class="parentDiv">
+        <p>First para</p>
+        <div class="parentDiv"></div>
+    </div>
+    
+    <script>
+        var newLine = document.createElement('p');
+        newLine.innerHTML = "Second Line";
+        
+        document.getElementsByClassName('parentDiv')[0].appendChild(newLine);
+    </script>
+</body>
+
+</html>

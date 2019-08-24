@@ -1,0 +1,61 @@
+.task-heading {
+    font-weight: bolder;
+}
+
+.task-container {
+    background-color: #E2E4E6;
+    padding: 10px;
+}
+
+.task-card {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.add-card-btn {
+    background-color: inherit;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+}
+
+.task-meta {
+    font-weight: bold;
+}
+
+.create-task-btn {
+    color: #fff;
+    background-color: #1e7e34;
+}
+
+.delete-task-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+    background-color: red;
+}
+
+.edit-task-btn {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    float: right;
+    background-color: green;
+}
+.taskList{
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+}

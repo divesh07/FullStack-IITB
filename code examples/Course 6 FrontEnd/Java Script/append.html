@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Creating elements in Javascript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+            <h1>Let's add some elements using javascript</h1>      
+            <div id="parentDiv">This is our parent div</div>
+            <p id="changeColor">Change Color</p>
+        <script>
+            var newNode = document.createElement('p');
+            newNode.innerHTML = "This paragraph was added by javascript as a child to the parent div";
+            document.getElementById('parentDiv').appendChild(newNode);
+
+            // Chnage the style of the dom node
+            document.getElementById('changeColor').style.color =  'red';
+            document.getElementById('changeColor').style.fontWeight = 'bolder';
+        </script>
+    </body>
+    
+</html>
+        

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Food Menu</h1>
+        <div>
+            <button id="VegDish" onclick="vegMenu()">Veg</button>
+            <div id="addVegDish"></div>
+        </div>
+
+        <div>
+            <button id="NonVegDish" onclick="NonVegMenu()">NonVeg</button>
+            <div id="addNonVegDish"></div>
+        </div>
+
+        <script>
+            var vegMenuList = [
+                { name: 'Paneer Makhani'},
+                { name: 'Veg Pulao'},
+                { name: 'Mix Veg'},
+                { name: 'Veg Noodles'}
+            ]
+
+            var NonVegMenuList = [
+                { name: 'Mutton Kabab'},
+                { name: 'Mutton Biryani'}
+            ]
+
+            function vegMenu(){
+                vegMenuList.forEach(function(value, index){
+                    var addDishName = '<ul>' + '<li>' + value.name + '</li>' + '</ul>';
+                    document.getElementById('addVegDish').innerHTML = addDishName;
+
+                });
+            }
+
+            function NonVegMenu(){
+                NonVegMenuList.forEach(function(value, index){
+                    var addDishName = '<ul>' + '<li>' + value.name + '</li>' + '</ul>';
+                    document.getElementById('addNonVegDish').innerHTML = addDishName;
+
+                });
+            }
+
+        </script>
+    </body>
+</html>
