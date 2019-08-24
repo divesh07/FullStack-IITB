@@ -1,0 +1,9 @@
+.classpath
+.gradle
+.project
+.settings
+.tscache
+*.log
+*.iml
+.idea
+*.lst
