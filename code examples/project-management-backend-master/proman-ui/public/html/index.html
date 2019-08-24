@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+            <form>
+                    <h1>Sign up</h1>
+                    <label class="labelText">First name</label>
+                    <input type="text" placeholder="eg., Mark" id="firstName">
+                    <label class="labelText">Last name</label>
+                    <input type="text" placeholder="eg., Green" id="lastName">
+                    <label>Email</label>
+                    <input type="email" placeholder="eg., test@upgrad.com" id="email">
+                    <label id="passwordl">Password</label>
+                    <input type="password" placeholder="eg., xxyyzz" id="password">
+                    <label>Mobile</label>
+                    <input type="tel" placeholder="eg., 1234567890" id="mobile">
+            </form>
+            <button class="submit-btn" onclick="signUpSubmit(firstName, lastName, email, password, mobile)">Submit</button>
+    </div>
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
+
+

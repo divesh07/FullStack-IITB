@@ -1,0 +1,2452 @@
+swagger: '2.0'
+info:
+  title: Board Management API
+  version: 1.0.0
+  description: >
+    ## API of Board Management Services
+
+
+    This specification describes the endpoints, request/response model of the Board Management API.
+    This API provides REST resources to manage project boards of Proman application.
+
+
+    The resources should only be used over HTTPS (SSL) and can be accessed via the following base URL:
+
+
+    ```
+      https://proman.io/api/v1/
+    ```
+
+
+    ## API usage guidelines
+
+
+    This section describes general rules and guidelines for using REST based
+    services offered by Proman.
+
+      * All resources can only be accessed via HTTPS and a respective HTTP Basic Authentication header is also required.
+      * Proman reserves the right to add new parameters without further notice (in request and response).
+      * Proman reserves the right to add new error codes without further notice. Proman will thereby stick to the HTTP STATUS CODES as defined by W3C.
+      * Proman reserves the right to enhance enumerations by new values.
+      * Proman reserves the right to increase the "maxItem" settings of arrays without further notice.
+      
+    Each consumer needs to tolerant about changes to the API as much as possible ([see Tolerant Reader Pattern](http://martinfowler.com/bliki/TolerantReader.html))
+
+
+    ## Business definitions
+
+    Board Management APIs can only be called by authorized users who has rights with required permissions to manage boards. These APIs can be used to create new board,
+    modify an existing board, map team to the board, add members (users) to the board, remove members (users) from the board, map workflow, mark board as completed, .
+    The users once mapped to the board will have an access to board and tasks assigned to them.
+
+    ## Release Notes 
+
+    ### 1.0.0
+
+    * Initial version
+
+host: proman.io
+schemes:
+  - http
+  - https
+basePath: /api/v1/boards
+tags:
+  - name: 'API#004 Boards'
+    description: >-
+      All operations marked with 'API#004 Boards' are relevant to board management use case
+
+paths:
+  /boards:
+    post:
+      operationId: createBoard
+      tags:
+        - 'API#004 Boards'
+      security:
+        - Authorization: []
+      summary: Board Management - Create new Board
+      description: >
+        API to create new board in Proman application
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - $ref: '#/parameters/ClientId'
+        - $ref: '#/parameters/Authorization'
+        - in: body
+          name: CreateBoardRequest
+          description: Request containing new board details
+          required: true
+          schema:
+            $ref: '#/definitions/CreateBoardRequest'
+      responses:
+        '201':
+          description: CREATED - Board has been created successfully
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+            location:
+              type: string
+              description: Location of the new resource which was created by this request
+          schema:
+            $ref: '#/definitions/CreateBoardResponse'
+        '400':
+          description: >-
+            BAD REQUEST - server cannot or will not process the request due to
+            something that is perceived to be a client error (e.g., malformed
+            request syntax, mandatory elements are missing)
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '401':
+          description: UNAUTHORIZED - user has provided wrong credentials
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '403':
+          description: >-
+            FORBIDDEN - request has not been applied because client application
+            has no permission to perform action
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '422':
+          description: >-
+            UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+        '500':
+          description: >-
+            INTERNAL SERVER ERROR - server encountered an unexpected condition
+            that prevented it from fulfilling the request.
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+
+    get:
+       operationId: getBoards
+       tags:
+         - 'API#004 Boards'
+       security:
+         - Authorization: []
+       summary: Board Management - Get all Boards
+       description: >
+         API to get all boards of Proman application
+       produces:
+         - application/json
+       parameters:
+         - $ref: '#/parameters/ClientId'
+         - $ref: '#/parameters/Authorization'
+         - in: query
+           name: page
+           type: integer
+           required: false
+           description: query to set the position of the records to be fetched from
+         - in: query
+           name: limit
+           type: integer
+           required: false
+           description: query to limit the number of records per fetch
+         - in: query
+           name: status
+           type: string
+           enum: [OPEN, CLOSED]
+           required: false
+           description: query to filter the results based on specified status
+       responses:
+         '200':
+           description: OK - Fetched all boards
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+             $ref: '#/definitions/BoardsSummaryResponse'
+         '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to something that is perceived to be a
+              client error (e.g., malformed request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+         '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+         '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+         '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+         '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}:
+     get:
+        operationId: getBoard
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Get an existing Board
+        description: >
+            API to get an existing Board detalis of Proman application
+        produces:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+        responses:
+         '200':
+           description: OK - Fetched board details
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+             $ref: '#/definitions/BoardDetailsResponse'
+         '400':
+           description: >-
+             BAD REQUEST - server cannot or will not process the request due to
+             something that is perceived to be a client error (e.g., malformed
+             request syntax, mandatory elements are missing)
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '401':
+           description: UNAUTHORIZED - user has provided wrong credentials
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '403':
+           description: >-
+             FORBIDDEN - request has not been applied because client application
+             has no permission to perform action
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '404':
+           description: >-
+             NOT FOUND - Board (resource) does not exist
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '500':
+           description: >-
+             INTERNAL SERVER ERROR - server encountered an unexpected condition
+             that prevented it from fulfilling the request.
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+     put:
+        operationId: updateBoard
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Update an existing Board
+        description: >
+            API to update an existing board details in Proman application
+        consumes:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: UpdateBoardRequest
+            description: Request containing modified board details
+            required: true
+            schema:
+              $ref: '#/definitions/UpdateBoardRequest'
+        responses:
+          '200':
+            description: OK - Board has been updated successfully
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+     patch:
+        operationId: patchBoard
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Partial update of an existing Board
+        description: >
+            API to partial update of an existing board in Proman application
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: BoardOperationsRequest
+            description: Request containing modified status of board
+            required: true
+            schema:
+              $ref: '#/definitions/BoardOperationsRequest'
+        responses:
+          '200':
+            description: OK - Board has been partially updated
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+     delete:
+        operationId: deleteBoard
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Remove an existing Board
+        description: >
+            API to remove an existing Board
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+        responses:
+          '200':
+            description: OK - Board status has been set to DELETED
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}/projects:
+    post:
+      operationId: createBoardProject
+      tags:
+        - 'API#004 Boards'
+      security:
+        - Authorization: []
+      summary: Board Management - Create new Project in the Board
+      description: >
+        API to create new Project in the Board
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - $ref: '#/parameters/BoardId'
+        - $ref: '#/parameters/ClientId'
+        - $ref: '#/parameters/Authorization'
+        - in: body
+          name: CreateBoardRequest
+          description: Request containing new board details
+          required: true
+          schema:
+            $ref: '#/definitions/CreateBoardProjectRequest'
+      responses:
+        '201':
+          description: CREATED - Project has been created successfully
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+            location:
+              type: string
+              description: Location of the new resource which was created by this request
+          schema:
+            $ref: '#/definitions/CreateBoardProjectResponse'
+        '400':
+          description: >-
+            BAD REQUEST - server cannot or will not process the request due to
+            something that is perceived to be a client error (e.g., malformed
+            request syntax, mandatory elements are missing)
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '401':
+          description: UNAUTHORIZED - user has provided wrong credentials
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '403':
+          description: >-
+            FORBIDDEN - request has not been applied because client application
+            has no permission to perform action
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+        '422':
+          description: >-
+            UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+          schema:
+            $ref: '#/definitions/ErrorResponse'
+        '500':
+          description: >-
+            INTERNAL SERVER ERROR - server encountered an unexpected condition
+            that prevented it from fulfilling the request.
+          headers:
+            request-id:
+              type: string
+              description: Used as correlation id while tracing for the request in the backend
+
+    get:
+      operationId: getBoardProjects
+      tags:
+        - 'API#004 Boards'
+      security:
+        - Authorization: []
+      summary: Board Management - List of projects belonging to the Board
+      description: >
+          API to get an existing projects of the Board
+      produces:
+        - application/json
+      parameters:
+       - $ref: '#/parameters/BoardId'
+       - $ref: '#/parameters/ClientId'
+       - $ref: '#/parameters/Authorization'
+      responses:
+       '200':
+         description: OK - Fetched list of board projects
+         headers:
+           request-id:
+             type: string
+             description: Used as correlation id while tracing for the request in the backend
+         schema:
+           $ref: '#/definitions/ProjectsSummaryResponse'
+       '400':
+         description: >-
+           BAD REQUEST - server cannot or will not process the request due to
+           something that is perceived to be a client error (e.g., malformed
+           request syntax, mandatory elements are missing)
+         headers:
+           request-id:
+             type: string
+             description: Used as correlation id while tracing for the request in the backend
+       '401':
+         description: UNAUTHORIZED - user has provided wrong credentials
+         headers:
+           request-id:
+             type: string
+             description: Used as correlation id while tracing for the request in the backend
+       '403':
+         description: >-
+           FORBIDDEN - request has not been applied because client application
+           has no permission to perform action
+         headers:
+           request-id:
+             type: string
+             description: Used as correlation id while tracing for the request in the backend
+       '500':
+         description: >-
+           INTERNAL SERVER ERROR - server encountered an unexpected condition
+           that prevented it from fulfilling the request.
+         headers:
+           request-id:
+             type: string
+             description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}/projects/{project_id}:
+     get:
+        operationId: getBoardProjectDetails
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Get an existing project details of the Board
+        description: >
+            API to get an existing Projects detalis of the Board
+        produces:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+        responses:
+         '200':
+           description: OK - Fetched project details
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+             $ref: '#/definitions/ProjectDetailsResponse'
+         '400':
+           description: >-
+             BAD REQUEST - server cannot or will not process the request due to
+             something that is perceived to be a client error (e.g., malformed
+             request syntax, mandatory elements are missing)
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '401':
+           description: UNAUTHORIZED - user has provided wrong credentials
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '403':
+           description: >-
+             FORBIDDEN - request has not been applied because client application
+             has no permission to perform action
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '404':
+           description: >-
+             NOT FOUND - Board (resource) does not exist
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '500':
+           description: >-
+             INTERNAL SERVER ERROR - server encountered an unexpected condition
+             that prevented it from fulfilling the request.
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+     put:
+        operationId: updateBoardProject
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Update an existing Project in the Board
+        description: >
+            API to update an existing project details in the Board
+        consumes:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: UpdateBoardRequest
+            description: Request containing modified board details
+            required: true
+            schema:
+              $ref: '#/definitions/UpdateBoardProjectRequest'
+        responses:
+          '200':
+            description: OK - Project has been updated successfully
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+     patch:
+        operationId: patchBoardProject
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Partial update of an existing Board
+        description: >
+            API to partial update of an existing board in Proman application
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: ProjectOperationsRequest
+            description: Request containing modified status of board
+            required: true
+            schema:
+              $ref: '#/definitions/ProjectOperationsRequest'
+        responses:
+          '200':
+            description: OK - Board has been partially updated
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+     delete:
+        operationId: deleteBoardProject
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Remove an existing Project from the Board
+        description: >
+            API to remove an existing Project from the Board
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+        responses:
+          '200':
+            description: OK - Project status has been set to DELETED
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Board (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}/projects/{project_id}/members:
+     get:
+        operationId: getProjectMembers
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - List of Project members belonging to the Board
+        description: >
+            API to get an existing members of the Project beloging to the Board
+        produces:
+          - application/json
+        parameters:
+         - $ref: '#/parameters/BoardId'
+         - $ref: '#/parameters/ProjectId'
+         - $ref: '#/parameters/ClientId'
+         - $ref: '#/parameters/Authorization'
+        responses:
+         '200':
+           description: OK - Fetched list of board members
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+             $ref: '#/definitions/ProjectMembersSummaryResponse'
+         '400':
+           description: >-
+             BAD REQUEST - server cannot or will not process the request due to
+             something that is perceived to be a client error (e.g., malformed
+             request syntax, mandatory elements are missing)
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '401':
+           description: UNAUTHORIZED - user has provided wrong credentials
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '403':
+           description: >-
+             FORBIDDEN - request has not been applied because client application
+             has no permission to perform action
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '500':
+           description: >-
+             INTERNAL SERVER ERROR - server encountered an unexpected condition
+             that prevented it from fulfilling the request.
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}/projects/{project_id}/tasks:
+     get:
+        operationId: getProjectTasks
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - List of Project tasks belonging to the Board
+        description: >
+            API to get an existing project tasks of the Board
+        produces:
+          - application/json
+        parameters:
+         - $ref: '#/parameters/BoardId'
+         - $ref: '#/parameters/ProjectId'
+         - $ref: '#/parameters/ClientId'
+         - $ref: '#/parameters/Authorization'
+        responses:
+         '200':
+           description: OK - Fetched list of tasks belonging to the board
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+             $ref: '#/definitions/ProjectTasksSummaryResponse'
+         '400':
+           description: >-
+             BAD REQUEST - server cannot or will not process the request due to
+             something that is perceived to be a client error (e.g., malformed
+             request syntax, mandatory elements are missing)
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '401':
+           description: UNAUTHORIZED - user has provided wrong credentials
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '403':
+           description: >-
+             FORBIDDEN - request has not been applied because client application
+             has no permission to perform action
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '500':
+           description: >-
+             INTERNAL SERVER ERROR - server encountered an unexpected condition
+             that prevented it from fulfilling the request.
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+
+     post:
+        operationId: addProjectTask
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Add task to the Project
+        description: >
+            API to add task to the project
+        consumes:
+          - application/json
+        produces:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: CreateProjectTaskRequest
+            description: Request containing members to be added to the board
+            required: true
+            schema:
+              $ref: '#/definitions/CreateProjectTaskRequest'
+        responses:
+          '201':
+            description: CREATED - Task has been created successfully in the board
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+              location:
+                type: string
+                description: Location of the new resource which was created by this request
+            schema:
+              $ref: '#/definitions/CreateProjectTaskResponse'
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+               FORBIDDEN - request has not been applied because client application
+               has no permission to perform action
+            headers:
+               request-id:
+                 type: string
+                 description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+               INTERNAL SERVER ERROR - server encountered an unexpected condition
+               that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+  /boards/{board_id}/projects/{project_id}/tasks/{task_id}:
+     get:
+        operationId: getProjectTaskDetails
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Task details belonging to the Board
+        description: >
+            API to get details of an existing task in the Board
+        produces:
+          - application/json
+        parameters:
+         - $ref: '#/parameters/BoardId'
+         - $ref: '#/parameters/ProjectId'
+         - $ref: '#/parameters/TaskId'
+         - $ref: '#/parameters/ClientId'
+         - $ref: '#/parameters/Authorization'
+        responses:
+         '200':
+           description: OK - Fetched details of the task belonging to the board
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+           schema:
+              $ref: '#/definitions/ProjectTaskDetailsResponse'
+         '400':
+           description: >-
+             BAD REQUEST - server cannot or will not process the request due to
+             something that is perceived to be a client error (e.g., malformed
+             request syntax, mandatory elements are missing)
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '401':
+           description: UNAUTHORIZED - user has provided wrong credentials
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '403':
+           description: >-
+             FORBIDDEN - request has not been applied because client application
+             has no permission to perform action
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+         '404':
+            description: >-
+              NOT FOUND -  Task (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+         '500':
+           description: >-
+             INTERNAL SERVER ERROR - server encountered an unexpected condition
+             that prevented it from fulfilling the request.
+           headers:
+             request-id:
+               type: string
+               description: Used as correlation id while tracing for the request in the backend
+
+     put:
+        operationId: updateProjectTask
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Update an existing task in the project
+        description: >
+            API to update an existing task details in the project
+        consumes:
+          - application/json
+        produces:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/TaskId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: UpdateProjectTaskRequest
+            description: Request containing modified task details
+            required: true
+            schema:
+              $ref: '#/definitions/UpdateProjectTaskRequest'
+        responses:
+          '200':
+            description: OK - Task has been updated successfully
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Task (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+
+     patch:
+        operationId: patchProjectTask
+        tags:
+          - 'API#004 Boards'
+        security:
+          - Authorization: []
+        summary: Board Management - Partial update of an existing task belonging to the Project
+        description: >
+            API to partial update of an existing task in the project of Proman application
+        consumes:
+          - application/json
+        produces:
+          - application/json
+        parameters:
+          - $ref: '#/parameters/BoardId'
+          - $ref: '#/parameters/ProjectId'
+          - $ref: '#/parameters/TaskId'
+          - $ref: '#/parameters/ClientId'
+          - $ref: '#/parameters/Authorization'
+          - in: body
+            name: ProjectTaskOperationsRequest
+            description: Request containing modified status of board task
+            required: true
+            schema:
+              $ref: '#/definitions/ProjectTaskOperationsRequest'
+        responses:
+          '200':
+            description: OK - Task has been partially updated
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '400':
+            description: >-
+              BAD REQUEST - server cannot or will not process the request due to
+              something that is perceived to be a client error (e.g., malformed
+              request syntax, mandatory elements are missing)
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '401':
+            description: UNAUTHORIZED - user has provided wrong credentials
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '403':
+            description: >-
+              FORBIDDEN - request has not been applied because client application
+              has no permission to perform action
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '404':
+            description: >-
+              NOT FOUND - Task (resource) does not exist
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+          '422':
+            description: >-
+              UNPROCESSABLE ENTITY - request was well-formed but server unable to process due to semantic errors
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+            schema:
+              $ref: '#/definitions/ErrorResponse'
+          '500':
+            description: >-
+              INTERNAL SERVER ERROR - server encountered an unexpected condition
+              that prevented it from fulfilling the request.
+            headers:
+              request-id:
+                type: string
+                description: Used as correlation id while tracing for the request in the backend
+
+
+securityDefinitions:
+  Authorization:
+    type: basic
+    description: >
+      Bearer authentication (also called token authentication) is an HTTP authentication scheme that involves
+      security tokens called bearer tokens. The name “Bearer authentication” can be understood as “give access
+      to the bearer of this token.”
+
+      The bearer token is a cryptic string, usually generated by the server in response to a login request. The
+      client must send this token in the Authorization header when making requests to protected resources:
+
+      ```
+      Authorization: Bearer <token>
+
+      ```
+
+      Similarly to Basic authentication, Bearer authentication should only be used over HTTPS (SSL).
+
+      Read https://jwt.io/introduction/ for more information on JWT standard.
+
+parameters:
+  ClientId:
+    name: client-id
+    type: string
+    in: header
+    required: true
+    description: >-
+      Mandatory request header about the caller of this API. Only an authorized clients are allowed to this API.
+  Authorization:
+    name: authorization
+    type: string
+    in: header
+    required: true
+    description: >-
+      Mandatory user credentials in bearer http authentication scheme format. Refer to the #/securityDefinitions
+      for more information on this header.
+  BoardId:
+    name: board_id
+    type: string
+    format: uuid
+    in: path
+    required: true
+    description: >-
+      Unique identifier of Board in a standard UUID format
+  ProjectId:
+    name: project_id
+    type: string
+    format: uuid
+    in: path
+    required: true
+    description: >-
+      Unique identifier of Project in a standard UUID format
+  TaskId:
+    name: task_id
+    type: string
+    format: uuid
+    in: path
+    required: true
+    description: >-
+      Unique identifier of Task in a standard UUID format
+
+definitions:
+
+  BoardsSummaryResponse:
+    type: object
+    properties:
+      page:
+        type: integer
+        description: page or position of the fetched boards
+      limit:
+        type: integer
+        description: number of boards fetched per this request
+      total_count:
+        type: integer
+        description: total number of boards in the database
+      boards:
+        type: array
+        items:
+          type: object
+          $ref: '#/definitions/BoardSummaryType'
+        description: List of boards
+    required:
+      - page
+      - limit
+      - total_count
+      - boards
+    example:
+      page: 1
+      limit: 10
+      total_count: 33
+      boards:
+        - id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+          name: Build Prototype
+          description: Demo of Project Management application
+          owner:
+            id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+            first_name: Project
+            last_name: Manager
+          status: ACTIVE
+
+        - id: 8d174a25-da31-55a8-85b4-c06ffc9d5f8f
+          name: Implement API
+          description: Demo of Project Management application
+          owner:
+            id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+            first_name: Project
+            last_name: Manager
+          status: ACTIVE
+
+  BoardSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board in a standard UUID format
+      name:
+        type: string
+        description: Name of the board
+      owner:
+        type: object
+        description: Name of the board owner
+        $ref: '#/definitions/BoardOwnerType'
+      description:
+        type: string
+        description: Description of the board
+      status:
+        $ref: '#/definitions/BoardStatusType'
+    required:
+      - id
+      - name
+      - owner
+      - status
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: Demo Proman
+      owner:
+        id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+        first_name: Project
+        last_name: Manager
+      description: Demo of the Project Management application
+      status: OPEN
+
+  BoardDetailsResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board in a standard UUID format
+      name:
+        type: string
+        description: Name of the board
+      owner:
+        type: object
+        description: Details of the board owner
+        $ref: '#/definitions/BoardOwnerDetailsType'
+      description:
+        type: string
+        description: Description of the board
+      status:
+        $ref: '#/definitions/BoardStatusType'
+      total_projects:
+        type: integer
+        description: Total number of projects in the board
+    required:
+      - id
+      - name
+      - owner
+      - status
+      - total_projects
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: Demo Proman Update
+      owner:
+        id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+        first_name: Program
+        last_name: Manager
+        email_address: program.manager@proman.io
+        role:
+          id: 201
+          name: Program Manager
+      description: Demo of Project Management application
+      status: ACTIVE
+      total_projects: 8
+
+  BoardOwnerType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+    required:
+      - id
+      - first_name
+      - last_name
+
+  BoardOwnerDetailsType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+      email_address:
+        type: string
+        description: Email address of the owner (user)
+      role:
+        $ref: '#/definitions/RoleType'
+    required:
+      - id
+      - first_name
+      - last_name
+      - email_address
+      - role
+
+  RoleType:
+    type: object
+    properties:
+      id:
+        type: integer
+        description: Role id of the owner (user)
+      name:
+        type: string
+        description: Role name of the owner (user)
+    required:
+      - id
+      - name
+
+  BoardOperationsRequest:
+    type: array
+    items:
+      $ref: '#/definitions/BoardOperationRequest'
+
+  BoardOperationRequest:
+    type: object
+    properties:
+      op:
+        type: string
+        description: Type of operation
+        enum: [replace]
+      path:
+        type: string
+        description: Resource path whose state to be modified
+        enum: [status]
+      value:
+        type: string
+        description: New state value to be updated to the resource
+    example:
+      - op: replace
+        path: status
+        value: CLOSED
+
+  CreateBoardRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of the new board
+      owner_id:
+        type: string
+        format: uuid
+        description: Owner (user identifier) of the board
+      description:
+        type: string
+        description: Description of the board
+    required:
+      - name
+      - owner_id
+    example:
+      name: Proman Demo
+      description: Demo of Project Management application
+      owner_id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+
+  CreateBoardResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier in a standard UUID format generated by API backend
+      status:
+        $ref: '#/definitions/BoardStatusType'
+    required:
+      - id
+      - status
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      status: OPEN
+
+  UpdateBoardRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of the new board
+      owner_id:
+        type: string
+        format: uuid
+        description: Owner (user identifier) of the board
+      description:
+        type: string
+        description: Description of the board
+    required:
+      - name
+      - owner_id
+      - description
+    example:
+      name: Demo Proman Update
+      owner_id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+      description: Demo of Project Management application
+
+  ProjectsSummaryResponse:
+    type: object
+    properties:
+      page:
+        type: integer
+        description: page or position of the fetched members
+      limit:
+        type: integer
+        description: number of members fetched `per this request
+      total_count:
+        type: integer
+        description: total number of projects in the database
+      projects:
+        type: array
+        items:
+          type: object
+          $ref: '#/definitions/ProjectSummaryType'
+        description: List of projects
+    required:
+      - page
+      - limit
+      - total_count
+      - projects
+    example:
+      page: 1
+      limit: 10
+      total_count: 8
+      members:
+        - id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+          first_name: Project
+          last_name: Manager
+          email_address: project.manager@proman.io
+          role:
+            id: 200
+            name: Project Manager
+          status: ACTIVE
+        - id: 8d174a25-da31-55a8-85b4-c06ffc9d5f8f
+          first_name: Team
+          last_name: Leader
+          email_address: team.leader@proman.io
+          role:
+            id: 200
+            name: Team Leader
+          status: LOCKED
+          total_members: 8
+          total_effort: 10800
+          remaining_effort: 7200
+
+  BoardStatusType:
+    type: string
+    enum: [OPEN, CLOSED, DELETED]
+    description: Status of the board
+
+  ProjectSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board project in a standard UUID format generated by API backend
+      board:
+        type: object
+        description: Board that this Project belongs to of the project board
+        $ref: '#/definitions/ProjectBoardSummaryType'
+      owner:
+        type: object
+        description: Owner that this project belongs to
+        $ref: '#/definitions/ProjectOwnerType'
+      name:
+        type: string
+        description: Name of the project
+      description:
+        type: string
+        description: Description of the project
+      start_date:
+        description: Start date of the project
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the project
+        $ref: '#/definitions/FullDateType'
+      status:
+        $ref: '#/definitions/ProjectStatusType'
+      total_members:
+        type: integer
+        description: Total members in the project
+      total_effort:
+        type: integer
+        description: Total estimated effort (in seconds) of all tasks belonging to this Project
+      remaining_effort:
+        type: integer
+        description: Total remaining effort (in seconds) of all tasks belonging to this Project
+    required:
+      - id
+      - name
+      - owner
+      - start_date
+      - end_date
+      - status
+      - total_members
+      - total_effort
+      - remaining_effort
+
+  ProjectDetailsResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the project in a standard UUID format
+      board:
+        type: object
+        description: Board that this Project belongs to of the project board
+        $ref: '#/definitions/ProjectBoardSummaryType'
+      owner:
+        type: object
+        description: Details of the project owner
+        $ref: '#/definitions/ProjectOwnerDetailsType'
+      name:
+        type: string
+        description: Name of the project
+      description:
+        type: string
+        description: Description of the project
+      start_date:
+        description: Start date of the project
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the project
+        $ref: '#/definitions/FullDateType'
+      status:
+        $ref: '#/definitions/ProjectStatusType'
+      total_members:
+        type: integer
+        description: Total number of members (users) in the project
+      total_effort:
+        type: integer
+        description: Total estimated effort (in seconds) of all tasks belonging to this Project
+      remaining_effort:
+        type: integer
+        description: Total remaining effort (in seconds) of all tasks belonging to this Project
+    required:
+      - id
+      - name
+      - owner
+      - start_date
+      - end_date
+      - status
+      - total_members
+      - total_effort
+      - remaining_effort
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: Build Prototype
+      owner:
+        id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+        first_name: Project
+        last_name: Manager
+        email_address: project.manager@proman.io
+        role:
+          id: 200
+          name: Project Manager
+      start_date: 2018-05-07
+      end_date: 2018-05-10
+      status: ACTIVE
+      total_members: 8
+      total_effort: 10800
+      remaining_effort: 7200
+
+  ProjectBoardSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board in a standard UUID format
+      name:
+        type: string
+        description: Name of the board
+    required:
+      - id
+      - name
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: Demo Proman
+
+  ProjectOwnerType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+    required:
+      - id
+      - first_name
+      - last_name
+
+  ProjectOwnerDetailsType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+      email_address:
+        type: string
+        description: Email address of the owner (user)
+      role:
+        $ref: '#/definitions/RoleType'
+    required:
+      - id
+      - first_name
+      - last_name
+      - email_address
+      - role
+
+  ProjectStatusType:
+    type: string
+    enum: [OPEN, IN PROGRESS, ON HOLD, COMPLETED, DELETED]
+    description: Status of the project
+
+  CreateBoardProjectRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of the new project
+      description:
+        type: string
+        description: Description of the new project
+      owner_id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board project owner in a standard UUID format
+      start_date:
+        description: Start date of the project
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the project
+        $ref: '#/definitions/FullDateType'
+    required:
+      - name
+      - start_date
+      - end_date
+    example:
+      name: Build API Backend for Proman Application
+      start_date: 2018-05-07
+      end_date: 2018-05-10
+      owner_id: 4d174a25-da31-55a8-65b4-c06ffc9d5f8a
+
+  CreateBoardProjectResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of Project in a standard UUID format generated by API backend
+      status:
+        $ref: '#/definitions/ProjectStatusType'
+    required:
+      - id
+      - status
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      status: OPEN
+
+  UpdateBoardProjectRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of the new Project
+      description:
+        type: string
+        description: Description of the new project
+      owner_id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board project owner in a standard UUID format
+      start_date:
+        description: Start date of the project
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the project
+        $ref: '#/definitions/FullDateType'
+    required:
+      - name
+      - start_date
+      - end_date
+    example:
+      name: Build API Backend for Proman Application
+      start_date: 2018-05-07
+      end_date: 2018-06-10
+      owner_id: 4d174a25-da31-55a8-65b4-c06ffc9d5f8a
+
+  ProjectMembersSummaryResponse:
+    type: object
+    properties:
+      total_count:
+        type: integer
+        description: total number of members in the database
+      members:
+        type: array
+        items:
+          type: object
+          $ref: '#/definitions/ProjectMemberSummaryType'
+        description: List of members
+    required:
+      - page
+      - limit
+      - total_count
+      - members
+    example:
+      page: 1
+      limit: 10
+      total_count: 8
+      members:
+        - id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+          first_name: Project
+          last_name: Manager
+          email_address: project.manager@proman.io
+          role:
+            id: 200
+            name: Project Manager
+          status: ACTIVE
+        - id: 8d174a25-da31-55a8-85b4-c06ffc9d5f8f
+          first_name: Team
+          last_name: Leader
+          email_address: team.leader@proman.io
+          role:
+            id: 200
+            name: Team Leader
+          status: LOCKED
+
+  ProjectMemberSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board member in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the member (user)
+      last_name:
+        type: string
+        description: Last name of the member (user)
+      email_address:
+        type: string
+        description: Email address of the member (user)
+      role:
+        $ref: '#/definitions/RoleType'
+      status:
+        $ref: '#/definitions/MemberStatusType'
+    required:
+      - id
+      - first_name
+      - last_name
+      - email_address
+      - role
+      - status
+
+  ProjectTasksSummaryResponse:
+    type: object
+    properties:
+      page:
+        type: integer
+        description: page or position of the fetched tasks
+      limit:
+        type: integer
+        description: number of tasks fetched per this request
+      total_count:
+        type: integer
+        description: total number of tasks in the database
+      tasks:
+        type: array
+        items:
+          type: object
+          $ref: '#/definitions/ProjectTaskSummaryType'
+        description: List of tasks
+    required:
+      - page
+      - limit
+      - total_count
+      - tasks
+    example:
+      page: 1
+      limit: 10
+      total_count: 8
+      tasks:
+        - id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+          name: Analysis and Design
+          description: Analyse on the technical feasibility and work on design spec
+          owner:
+            id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+            first_name: Technical
+            last_name: Lead
+          original_effort: 10800
+          logged_effort: 7200
+          remaining_effort: 3600
+          status: IN PROGRESS
+        - id: 8d174a25-da31-55a8-85b4-c06ffc9d5f8f
+          name: Implement Code
+          description: Write backend code
+          owner:
+            id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+            first_name: Senior
+            last_name: Developer
+          original_effort: 10800
+          logged_effort: 0
+          remaining_effort: 10800
+          status: REOPENED
+
+  ProjectTaskSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board member in a standard UUID format generated by API backend
+      project:
+        type: object
+        description: Project that this task belongs to
+        $ref: '#/definitions/TaskProjectSummaryType'
+      name:
+        type: string
+        description: Name of the task
+      description:
+        type: string
+        description: Description of the task
+      owner:
+        type: object
+        description: Owner (user) of this task
+        $ref: '#/definitions/TaskOwnerType'
+      original_effort:
+        type: integer
+        description: Estimated effort (in seconds) for this task
+      logged_effort:
+        type: integer
+        description: Logged effort (in seconds) for this task
+      remaining_effort:
+        type: integer
+        description: Remaining effort (in seconds) for this task
+      status:
+        $ref: '#/definitions/TaskStatusType'
+    required:
+      - id
+      - name
+      - description
+      - owner
+      - original_effort
+      - logged_effort
+      - remaining_effort
+      - status
+
+  TaskProjectSummaryType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the project in a standard UUID format
+      name:
+        type: string
+        description: Name of the project
+    required:
+      - id
+      - name
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: API Backend Project
+
+  TaskOwnerType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+    required:
+      - id
+      - first_name
+      - last_name
+
+  ProjectTaskDetailsResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board task in a standard UUID format generated by API backend
+      project:
+        type: object
+        description: Project that this task belongs to
+        $ref: '#/definitions/TaskProjectSummaryType'
+      name:
+        type: string
+        description: Name of the task
+      description:
+        type: string
+        description: Description of the task
+      owner:
+        type: object
+        description: Owner (user) of this task
+        $ref: '#/definitions/TaskOwnerDetailsType'
+      status:
+        $ref: '#/definitions/TaskStatusType'
+      start_date:
+        description: Start date of the board
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the board
+        $ref: '#/definitions/FullDateType'
+      original_effort:
+        type: integer
+        description: Estimated effort (in seconds) for this task
+      logged_effort:
+        type: integer
+        description: Logged effort (in seconds) for this task
+      remaining_effort:
+        type: integer
+        description: Remaining effort (in seconds) for this task
+      watchers:
+        type: array
+        description: List of watchers of this task
+        $ref: '#/definitions/TaskWatchersType'
+    required:
+      - id
+      - name
+      - description
+      - owner
+      - status
+      - start_date
+      - original_effort
+      - logged_effort
+      - remaining_effort
+      - watchers
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      name: Analysis and Design
+      description: Analyse on the technical feasibility and work on design spec
+      owner:
+        id: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+        first_name: Technical
+        last_name: Lead
+        email_address: technical.lead@proman.io
+      status: IN PROGRESS
+      start_date: 2018-05-07
+      end_date: 2018-05-10
+      original_effort: 10800
+      logged_effort: 7200
+      remaining_effort: 3600
+      watchers:
+        - id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+          first_name: Project
+          last_name: Manager
+        - id: 8d174a35-ca31-35a8-87b4-f06ffc9d5f8d
+          first_name: Team
+          last_name: Lead
+
+  TaskOwnerDetailsType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the owner (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the owner (user)
+      last_name:
+        type: string
+        description: Last name of the owner (user)
+      email_address:
+        type: string
+        description: Email address of the owner (user)
+      role:
+        $ref: '#/definitions/RoleType'
+    required:
+      - id
+      - first_name
+      - last_name
+      - email_address
+      - role
+
+  TaskWatchersType:
+    type: array
+    items:
+      type: object
+      $ref: '#/definitions/TaskWatcherType'
+
+  TaskWatcherType:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the watcher (user) in a standard UUID format generated by API backend
+      first_name:
+        type: string
+        description: First name of the watcher (user)
+      last_name:
+        type: string
+        description: Last name of the watcher (user)
+    required:
+      - id
+      - first_name
+      - last_name
+
+  CreateProjectTaskRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Name of the task
+      description:
+        type: string
+        description: Description of the task
+      owner_id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board task owner in a standard UUID format
+      start_date:
+        description: Start date of the board
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the board
+        $ref: '#/definitions/FullDateType'
+      original_effort:
+        type: integer
+        description: Estimated effort (in seconds) for this task
+      watchers:
+        type: object
+        description: List of watchers of this task
+        $ref: '#/definitions/TaskWatchersType'
+    required:
+      - name
+      - owner_id
+    example:
+      name: Analysis and Design
+      description: Analyse on the technical feasibility and work on design spec
+      owner_id: d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+      status: IN PROGRESS
+      start_date: 2018-05-07
+      end_date: 2018-05-10
+      original_effort: 10800
+      logged_effort: 7200
+      remaining_effort: 3600
+      watchers:
+        - 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+        - 8d174a35-ca31-35a8-87b4-f06ffc9d5f8d
+
+  CreateProjectTaskResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board task in a standard UUID format
+      status:
+        $ref: '#/definitions/TaskStatusType'
+    required:
+      - id
+      - status
+    example:
+      id: 7d174a25-ba31-45a8-85b4-b06ffc9d5f8f
+      status: IN PROGRESS
+
+  UpdateProjectTaskRequest:
+    type: object
+    properties:
+      name:
+        type: string
+        description: Modified name of the task
+      description:
+        type: string
+        description: Modified description of the task
+      owner_id:
+        type: string
+        format: uuid
+        description: Unique identifier of the board task owner in a standard UUID format
+      start_date:
+        description: Start date of the board
+        $ref: '#/definitions/FullDateType'
+      end_date:
+        description: End date of the board
+        $ref: '#/definitions/FullDateType'
+      original_effort:
+        type: integer
+        description: Estimated effort (in seconds) for this task
+    example:
+      name: Analysis and Design
+      description: Analyse on the technical feasibility and work on design spec
+      owner_id: d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+      start_date: 2018-05-07
+      end_date: 2018-05-10
+      original_effort: 10800
+
+  ProjectOperationsRequest:
+    type: array
+    items:
+      $ref: '#/definitions/ProjectOperationRequest'
+
+  ProjectOperationRequest:
+    type: object
+    properties:
+      op:
+        type: string
+        description: Type of operation
+        enum: [replace, add, remove]
+      path:
+        type: string
+        description: Resource path whose state to be modified
+        enum: [status, member]
+      value:
+        type: string
+        description: New state value to be updated to the resource
+    example:
+      - op: replace
+        path: status
+        value: COMPLETED
+      - op: add
+        path: member
+        value: 8d274a25-ca31-45a8-85b4-b06ffc9d5f8f
+      - op: remove
+        path: member
+        value: 3d274a27-da31-25a8-55b4-c06ffc9d5f3e
+
+  ProjectTaskOperationsRequest:
+    type: array
+    items:
+      $ref: '#/definitions/ProjectTaskOperationRequest'
+
+  ProjectTaskOperationRequest:
+    type: object
+    properties:
+      op:
+        type: string
+        description: Type of operation
+        enum: [replace, add, remove]
+      path:
+        type: string
+        description: Resource path whose state to be modified
+        enum: [status, owner, effort, watcher]
+      value:
+        type: string
+        description: New state value to be updated to the resource
+    example:
+      - op: replace
+        path: status
+        value: REOPENED
+      - op: add
+        path: effort
+        value: 3600
+      - op: remove
+        path: watcher
+        value: 3d274a27-da31-25a8-55b4-c06ffc9d5f3e
+
+  FullDateType:
+    type: string
+    format: full-date
+    description: Full date format
+
+  MemberIdType:
+    type: string
+    format: uuid
+    description: Unique identifier of the member in a standard UUID format generated by API backend
+
+  MemberStatusType:
+    type: string
+    enum: [REGISTERED, ACTIVE, INACTIVE, LOCKED]
+    description: Status of the board
+
+  TaskStatusType:
+    type: string
+    enum: [OPEN, IN PROGRESS, ON HOLD, COMPLETED, REOPENED, CLOSED, DELETED]
+    description: Status of the task
+
+  ErrorResponse:
+    type: object
+    properties:
+      code:
+        type: string
+        description: Application specific standard error code
+      message:
+        type: string
+        description: Error message stating the reason
+      root_cause:
+        type: string
+        description: Root cause of the Error
+    required:
+      - code
+      - message
+    example:
+      code: BRD-001
+      message: Board with name already exist

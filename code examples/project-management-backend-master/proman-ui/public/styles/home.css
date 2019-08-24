@@ -1,0 +1,81 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-block {
+    width: 20%;
+    background-color: grey;
+    padding: 5%;
+    height: 100vh;
+    color: white;
+}
+
+.board-container {
+   width: 70%;
+   padding: 2%;
+}
+
+#add-board-btn {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 0
+}
+
+input {
+    padding: 2%;
+    border: 1px solid grey;
+
+}
+
+.project-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: grey;
+    padding: 2%;
+    border-radius: 5px;
+    margin:10px 0;
+    color: white;
+    width: 30%;
+}
+
+@media (max-width: 400px) {
+    .project-card { 
+        width: 45%;
+    }
+}
+
+.add-board-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.board-block {
+    margin-top: 3%;
+    display: none;
+}
+
+.delete-btn {
+  padding: 5px;
+  background-color: red;
+  margin: 5px;
+  color: #fff;
+  border: none;
+}
+
+.project-btn {
+   padding: 5px;
+   background-color: green;
+   margin: 5px;
+   color: #fff;
+   border: none;
+}

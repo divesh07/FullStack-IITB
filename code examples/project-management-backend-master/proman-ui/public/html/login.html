@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Log in
+        </h1>
+        <form id="login-form" name="LoginForm">
+            <label for="username" class="label-text">Email</label>
+            <input type="text" id="email" placeholder="e.g., test@test.com" required>
+            <label for="password" class="label-text">Password</label>
+            <input type="password" id="password" placeholder="e.g., **********" required>
+        </form>
+        <button type="submit" onClick="login(email, password)" class="login-btn">Login</button>
+    </div>
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>

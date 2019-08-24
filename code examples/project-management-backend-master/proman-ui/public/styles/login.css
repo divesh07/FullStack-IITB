@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 2%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.login-btn {
+    background-color: green;
+    color: #fff;
+    padding: 2%;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+}
