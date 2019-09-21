@@ -1,0 +1,64 @@
+<style>
+		
+		
+		h5{
+			margin:300px;
+			text-align:center;
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items: center;
+		}
+		
+		body{
+			display:flex;
+			flex-direction:column;
+			align-items: center;
+			width:30%;
+		}
+		
+		form{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items: center;
+			width:30%;
+		}
+		
+	
+		label{
+			font-size:20px;
+			font-weight: bolder;
+			margin: 10px 0;
+			color:green;
+			font-family:sans-serif;
+			justify-content:left;
+			display:flex;			
+			width:30%;
+		}
+		
+		#password{
+			color:red;
+		}
+		
+		.labelText{
+			color:blue;
+		}
+
+		.Sub-btn{
+			background-color:green;
+			color:white;
+			padding:2%;
+			font-style: 22px;
+			margin-top: 10px;
+			border:0;
+			cursor:pointer;
+			width:200px
+		}
+		
+		input{
+			padding: 2%;
+		}
+		
+		
+	</style>

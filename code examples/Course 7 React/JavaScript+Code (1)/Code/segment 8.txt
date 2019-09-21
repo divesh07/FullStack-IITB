@@ -1,0 +1,19 @@
+var numbers = [12, 33, 87, 63];
+var mapResult = numbers.filter(function(x) {
+    return x>50
+});
+console.log(result);
+
+
+var result = numbers.filter(x => x > 50);
+var result = numbers.map(function(x) {
+    return x+2
+});
+console.log(result);
+
+
+var numbers = [12, 33, 87, 63];
+var reduceResult = numbers.reduce(function(x, y) {
+    return x+y
+});
+console.log(reduceResult);

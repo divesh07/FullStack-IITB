@@ -1,0 +1,91 @@
+Tasks
+
+Created user - testone@example.com
+1234567890
+
+Functional tests -
+
+1) Test the register and login functionality ( including sign in with google and sign in with facebook ).
+		Steps
+	1) Reigster a user and login in via the registered credentails.
+	2) Create a dummy google account and try login with the google account 
+	3) Similarly try login with the facebook account 
+	4) Also check the API calls mde during the process 
+		{"success": 1, "content": null, "status": 200, "result": {"last_name": "", "opt_in": null, "email": "testone@example.com", "first_scan": true, "customer_token": null, "email_status": "", "store_specific_parameters": {}, "c_id": 100022017, "cus_id": "6727534d-1293-490e-9bad-29ff4b9308bd", "source": null, "default_source": null, "phone_number": "", "show_notifications": true, "guest_user_email": null, "live_customer_token": null, "is_facebook_user": false, "all_order_not_verified": false, "live_source": null, "verification_code": "", "is_email_verified": true, "first_name": "test one", "user": 22017, "is_guest_user": false, "access_token": "b44614d54453057930cdd4b2b6b16084877e63a3", "feedback_count": 0, "is_google_user": false, "facebook_token": null, "user_metadata": {"store_id": "a472977e-24ed-409a-a203-94565637dbc9", "Message-Id": "welcome_testone@example.com"}}}
+	5) Check if the API call can be made to an internal endpoint using the Bearer / Authorization token.
+		https://app.mishipay.com/d/customer/signin
+ 
+2) Test the API endpoints 
+	https://app.mishipay.com/d/customer/signin
+	https://app.mishipay.com/customer-management/v1/get-additional-customer-details
+	ttps://app.mishipay.com/item-management/v1/item-scan
+	https://app.mishipay.com/payment-management/v1/get-or-save-card
+	https://app.mishipay.com/order-management/v1/get-all-order-details
+
+3) Add a invalid / valid / expired / visa / mastercard / amex cards - should be able to add these cards , the cards which are invalid shouldn't be added.
+	Check if the same card can be added twice , shouldn't be allowed 
+	Should be able to delete the added cards
+	Login from a different user and check if the card added by previous user are visible or accessible.
+   
+	Once the card is added , check if the payment made is successful.
+	Intiate payment - https://checkoutshopper-test.adyen.com/checkoutshopper/services/PaymentInitiation/v1/initiate?
+	Verify Payment - ttps://app.mishipay.com/payment-management/v1/verify-payment/
+	Check if card is added after payment successful - ttps://app.mishipay.com/payment-management/v1/verify-payment/
+	
+4) Test if multiple items can be scanned and added to the cart
+	Should be able to increase or decrease the quantity of the added item-management/v1/item-scan
+	Should be able to delete the added item or items from the cart.
+	Scan item - https://app.mishipay.com/item-management/v1/item-scan
+	Check the basket - https://app.mishipay.com/item-management/v1/get-basket-details/
+	Add items to basket - ttps://app.mishipay.com/item-management/v1/add-item-to-basket
+	Create order - https://app.mishipay.com/order-management/v1/create-order/
+	Get Order details - https://app.mishipay.com/order-management/v1/get-order-details
+
+5) Test the payment modes
+	Should be able to make payment through added cards / new cards / or google payment
+	https://app.mishipay.com/payment-management/v1/create-payment-session/?
+	https://checkoutshopper-test.adyen.com/checkoutshopper/services/PaymentInitiation/v1/initiate
+	https://app.mishipay.com/payment-management/v1/verify-payment/
+	
+6) Test customer feedback , the API shold be posting the correct data
+	Also the rate us section should retian the feedback
+	https://app.mishipay.com/customer-management/v1/add-customer-feedback/
+	
+7) Check the purchases made are reflected in the my purchases
+	https://app.mishipay.com/order-management/v1/get-all-order-details
+	
+8) CHeck if privacy policy , Terms and condition , About and contact us links are not broken and the content is legally complaint.
+
+9) Check the logout invalides the authentication and autherization tokens and user should be abele to acess direct links like 
+	https://webapp.mishipay.com/profile
+	
+10) Check for payment and details safety , can use network packet scanner ( wireshark ) to sniff packets and check if any critical data is being leaked
+	Also check the network and console window of the browser to see if passwords or card details are being shown.
+
+11) Check if the website can be logged in by the same user simultaneously from same browser windows as well as different browsers .
+
+12) CHeck the load the website can take by creating dummy users and check if the web app can scale to 10K requests per second.
+
+13) Check for data consistency - if after data initialization the browser tab/window is closed/killed , the process should be transactional.
+
+14) check if viewports supported by the app , should support desktop , tabs and mobile phones screen resolution.
+
+15) Check for the consistency is cart for the user logged in from mobile app and desktop web app , add few items from desktop and few from mobile and delete a few items. 
+	The card shold always show the correct state and not the stale data.
+
+
+Bugs -
+
+	Wrong place? Click to refersh is a link , so pointer icon should change on hover over the link. Also the refresh is slow.
+	Doesnt detect the location , "Seems like you are at : " is blank
+	Password should ask for alphanumeric letters along with one capital and one small letters and a digit 
+	Able to copy paste from the password when in text mode , should not be allowed
+	When on /scan page there is no button to go back or close it
+	Contact us page should redirect to a web page with contact email and password , as if the outlook is not setup on client machine the page redirects to mailto:support@mishipay.com?Subject=Bug%20Report%20-%20WebApp
+	Should be allowed to only enter 16 digit card numbers and not 19
+	Tool tip shown on help in scan page https://webapp.mishipay.com/scan is wrong.
+	Tool tip shown on back button on cart page is wrong https://webapp.mishipay.com/cart
+	On the accounts page all the links should have a hover pointer , only contact us has that functionality implemented.
+	Vertical scroll bar at the home page should be avoided at https://webapp.mishipay.com/start
+
+

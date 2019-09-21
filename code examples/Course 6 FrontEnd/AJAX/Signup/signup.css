@@ -1,0 +1,55 @@
+
+		h1{
+			text-align:center;
+			padding:10px 10px 10px 10px;
+			margin: 10px 10px 10px 10px;
+			
+		}
+		body{
+			display:flex;
+			align-items: center;
+			justify-content:center;
+			flex-direction:row;
+		}
+		.container{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			width:30%;
+		}
+		form{
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			
+		}
+		
+		label{
+			font-size:20px;
+			font-weight: bolder;
+			margin: 10px 0;
+			color:green;
+			font-family:sans-serif;
+		}
+		
+		#password{
+			color:red;
+		}
+		.labelText{
+			color:blue;
+		}
+		.submit-btn{
+			background-color:orange;
+			color:white;
+			padding:2%;
+			font-style: 22px;
+			margin-top: 10px;
+			border:0;
+			cursor:pointer;
+		}
+		
+		input{
+			padding: 2%;
+
+		}
+		

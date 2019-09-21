@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.157392">
-<testcase classname="Ad Locality" name="Create Domain" time="0.157392">
-<system-out><![CDATA[Given manager Installer install AD..........................................passed
-Then verify the AD domain...................................................passed
-And response success........................................................passed
-]]></system-out>
-</testcase>
-</testsuite>
