@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c3c491f-1978-4daa-bd1e-4f3f5c2c60db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileContent/annotation-processors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/4.2.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/5.5/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/AvManager-junit-report/AD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/AvManager-junit-report/AVMBAT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/AvProps.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/C_/Log/log4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/ADLocality/cucumber/tests/api/ApiAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/common/BrowserlaunchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/common/NavigateTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/ADDomains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/AdminRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/DashBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Directory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/GettingStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Infrastructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/License.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/MachineManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMConfiguration/cucumber/tests/ui/Volumes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/common/InstallerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/ui/DBSelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/ui/InstallConfirmDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/ui/InstallationLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/ui/LicenseAgreement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/AVMInstaller/cucumber/tests/ui/PortSelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/InsecureClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/InsecureClient$InsecureTrustManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/InsecureClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/KeyBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/LaunchBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/LaunchInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/RestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/classes/java/main/common/actions/constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/libs/av2x-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/resources/main/ADLocality/ADLocality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/resources/main/AVInstallAndConfigure/AV2XInstaller.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/resources/main/AVInstallAndConfigure/ManagerConfiguration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/resources/main/ManagerTests/SmartDomainController.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/resources/main/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/ADLocality/cucumber/tests/api/ApiAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/common/BrowserlaunchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/common/NavigateTo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/ADDomains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/AdminRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/DashBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Directory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/GettingStarted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Infrastructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/License.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/MachineManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMConfiguration/cucumber/tests/ui/Volumes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/common/InstallerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/ui/DBSelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/ui/InstallConfirmDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/ui/InstallationLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/ui/LicenseAgreement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/AVMInstaller/cucumber/tests/ui/PortSelection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/InsecureClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/InsecureClient$InsecureTrustManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/InsecureClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/KeyBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/LaunchBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/LaunchInstaller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/RestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/classes/common/actions/constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/resources/ADLocality/ADLocality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/resources/AVInstallAndConfigure/AV2XInstaller.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/resources/AVInstallAndConfigure/ManagerConfiguration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/resources/ManagerTests/SmartDomainController.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/out/production/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/ADLocality/cucumber/tests/api/ApiAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/common/BrowserlaunchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/common/NavigateTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/ADDomains.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/AdminRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/DashBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Directory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/GettingStarted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Infrastructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/License.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/MachineManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Settings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMConfiguration/cucumber/tests/ui/Volumes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/common/InstallerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/ui/DBSelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/ui/InstallConfirmDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/ui/InstallationLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/ui/LicenseAgreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/AVMInstaller/cucumber/tests/ui/PortSelection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/InsecureClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/KeyBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/LaunchBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/LaunchInstaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/RestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/java/common/actions/constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/resources/ADLocality/ADLocality.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/resources/AVInstallAndConfigure/AV2XInstaller.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/resources/AVInstallAndConfigure/ManagerConfiguration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/resources/ManagerTests/SmartDomainController.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Course 1/Module9/discussion-forum/discussion-forum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Course 1/Module9/discussion-forum/discussion-forum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/endpoints/admin.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/endpoints/authentication.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/endpoints/image.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/endpoints/signup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/generated-sources/.swagger-codegen-ignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/generated-sources/.swagger-codegen/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/generated-sources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/generated-sources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/generated-sources/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/classes/technical-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/config/SwaggerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/controller/SignupController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/exception/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/technical-api/target/classes/com/upgrad/technical/api/exception/RestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/generated-sources/.swagger-codegen-ignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/generated-sources/.swagger-codegen/VERSION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/generated-sources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/generated-sources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/generated-sources/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/technical-api/target/classes/technical-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../proman-app/project-management-backend" beforeDir="false" afterPath="$PROJECT_DIR$/../../../proman-app/project-management-backend" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/technical-service/target/" />
+    <ignored path="$PROJECT_DIR$/technical-db/target/" />
+    <ignored path="$PROJECT_DIR$/technical-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1600995818">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1093" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1093" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/thoughtSpotTest/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="889">
+              <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../Cucumber Framework/av-automation" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/upgrade/ControllerTest.java" />
+        <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/upgrade/Main.java" />
+        <option value="$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/thoughtSpotTest/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="331" />
+    <option name="y" value="56" />
+    <option name="width" value="1550" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="technical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution9" type="462c0819:PsiDirectoryNode" />
+              <item name="technical-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="thoughtSpotTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568948529815" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.upgrad.technical.api.thoughtSpotTest.Main" />
+      <module name="technical-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.upgrad.technical.api.thoughtSpotTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c3c491f-1978-4daa-bd1e-4f3f5c2c60db" name="Default Changelist" comment="" />
+      <created>1568195862062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568195862062</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20134228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32882884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32882884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/upgrade/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technical-api/src/main/java/com/upgrad/technical/api/thoughtSpotTest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
