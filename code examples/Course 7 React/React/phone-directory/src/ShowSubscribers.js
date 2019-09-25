@@ -1,31 +1,54 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
-import './App.css';
+import './ShowSubscribers.css';
+import {Link} from 'react-router-dom';
 
-class App extends Component {
+class ShowSubscribers extends Component {
   clickHandler(message){
     alert(message);
   }
 
-  render() {
-    let subrcribers = [
-      {
-        id: 1,
-        name: "Ronak",
-        phone: "8888"
-      },
-      {
-        id: 2,
-        name: "Rohit",
-        phone: "9999"
-      }
-    ]
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     subrcribersListToShow: []
+  //   }
+  //   console.log("Constructor called")
+  // }
 
+  // componentDidMount(){
+  //   let newSubscriber = {
+  //     id:1,
+  //     name: "Shilpa",
+  //     phone: "8888"
+
+  //   }
+  //   let subscribersList = this.state.subrcribersListToShow;
+  //   subscribersList.push(newSubscriber);
+  //   this.setState( {subrcribersListToShow: subscribersList});
+  //   console.log("State", this.state)
+  // }
+
+
+  render() {
+    // let subrcribers = [
+    //   {
+    //     id: 1,
+    //     name: "Ronak",
+    //     phone: "8888"
+    //   },
+    //   {
+    //     id: 2,
+    //     name: "Rohit",
+    //     phone: "9999"
+    //   }
+    // ]
+    console.log("Render called")
     return (
       <div>
         <Header heading="Phone Directory" />
         <div className="component-body-container">
-          <button className="custom-btn add-btn">Add</button>
+          <Link to="/add"><button className="custom-btn add-btn">Add</button></Link>
 
           <div className="grid-container heading-container">
             <span className="grid-item name-heading">Name</span>
@@ -33,7 +56,7 @@ class App extends Component {
           </div>
 
           {
-            subrcribers.map(sub => {
+            this.props.subscribersList.map(sub => {
               return <div key={sub.id} className="grid-container">
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
@@ -68,5 +91,5 @@ class App extends Component {
 
 }
 
-export default App;
+export default ShowSubscribers;
 

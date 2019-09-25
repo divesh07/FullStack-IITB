@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ShowSubscribers from './ShowSubscribers';
 import * as serviceWorker from './serviceWorker';
 import AddSubscriber from './AddSubscriber';
 import './common/common.css';
+import PhoneDirectory from './PhoneDirectory';
 
-//ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<AddSubscriber />, document.getElementById('root'));
+//ReactDOM.render(<ShowSubscribers />, document.getElementById('root'));
+//ReactDOM.render(<AddSubscriber />, document.getElementById('root'));
+ReactDOM.render(<PhoneDirectory />, document.getElementById('root'));
 
 // render first argument is what to render we can also use JSX directly to rener
 //ReactDOM.render(<p>Hello World</p>, document.getElementById('root'));
