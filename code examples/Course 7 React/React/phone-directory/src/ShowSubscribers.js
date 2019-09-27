@@ -60,6 +60,7 @@ class ShowSubscribers extends Component {
 
           {
             this.props.subscribersList.map(sub => {
+              // return <div key={sub.id} className="grid-container">
               return <div key={sub.id} className="grid-container">
                 <span className="grid-item">{sub.name}</span>
                 <span className="grid-item">{sub.phone}</span>
