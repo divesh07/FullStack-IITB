@@ -18,9 +18,6 @@
     from { transform: scaleX(-1); }
  }
 
- .modal-dialog{
-     display: block;
-     width: 20px;
-     height: 20px;
-     max-width: 10px;
- }
+.tabs{
+    margin-bottom: 20px;
+}
