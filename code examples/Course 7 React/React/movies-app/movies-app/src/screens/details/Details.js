@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from '../../common/header/Header';
 import moviesData from '../../common/movieData';
-import { Typography } from '@material-ui/core';
+import { Typography, GridList, GridListTile, GridListTileBar } from '@material-ui/core';
 import './Details.css';
 import Home from '../../screens/home/Home';
 import YouTube from 'react-youtube';
@@ -30,6 +30,9 @@ class Details extends Component {
         ReactDOM.render(<Home />, document.getElementById('root'));
     }
 
+    artistClickHandler = (url) => {
+        window.location = url;
+    }
 
     render() {
         let movie = this.state.movie;
@@ -40,7 +43,7 @@ class Details extends Component {
                 autoplay: 1
             }
         }
-        
+
         return (
             <div className="details">
                 <Header />
@@ -107,13 +110,31 @@ class Details extends Component {
                                 
                             </Typography>
                         </div>
-
-
-
-
                     </div>
+
                     <div className="rightDetails">
+
+                        <div className="bold marginBottom16 marginTop16">
+                            <Typography>
+                                <span className="bold">Artists:</span>
+                            </Typography>
+                        </div>
+                        <div className="paddingRight">
+                            <GridList cellHeight={160} cols={2}>
+                                {movie.artists !=null && movie.artists.map(artist => (
+                                    <GridListTile className="gridTile" 
+                                    onClick={ () => this.artistClickHandler(artist.wiki_url)} 
+                                    key= {artist.id}>
+                                        <img src={artist.profile_url} alt={artist.first_name + " " + artist.last_name} />
+                                        <GridListTileBar title={artist.first_name + " " + artist.last_name} />
+                                    </GridListTile>
+                                )) }
+
+                            </GridList>
+
+                        </div>
                     </div>
+
                 </div>
             </div>
         );
