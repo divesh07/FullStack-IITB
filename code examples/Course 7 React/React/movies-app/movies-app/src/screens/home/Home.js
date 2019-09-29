@@ -5,18 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import moviesData from '../../common/movieData';
 import genres from '../../common/genres';
 import artists from '../../common/artists';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import FormControl from '@material-ui/core/FormControl';
-import Typography from '@material-ui/core/Typography';
-import InputLabel from '@material-ui/core/InputLabel';
-import Input from '@material-ui/core/Input';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import { Checkbox, ListItemText } from '@material-ui/core';
+import { Select, MenuItem, GridList, GridListTile, GridListTileBar, Card, CardContent, Checkbox, FormControl, Typography, ListItemText, Input, InputLabel, TextField } from '@material-ui/core';
 
 const styles = theme => ({
     root: {
@@ -156,6 +145,18 @@ class Home extends Component {
                                         ))}
                                     </Select>
                                 </FormControl>
+
+                                <FormControl className={classes.formControl} >
+                                    <TextField id="releaseDateStart" label="Release Date Start" type="date" defaultValue="" 
+                                    InputLabelProps={{shrink: true}} />
+                                </FormControl>
+
+                                <FormControl className={classes.formControl} >
+                                    <TextField id="releaseDateEnd" label="Release Date End" type="date" defaultValue="" 
+                                    InputLabelProps={{shrink: true}} />
+                                </FormControl>
+
+
 
                             </CardContent>
                         </Card>
